@@ -19,7 +19,7 @@
           <div class="bg-white rounded-xl h-150 w-full mb-20 flex items-center justify-center overflow-hidden">
             <!-- Placeholder for product image -->
             <div class="bg-white rounded-xl h-200 w-full mb-20 flex items-center justify-center overflow-hidden">
-              <img src="@/assets/handyman.png" alt="Handyman Product" class="object-cover w-full h-full" />
+              <img src="@/assets/Handyman.png" alt="Handyman Product" class="object-cover w-full h-full" />
             </div>
 
           </div>
@@ -51,7 +51,7 @@
           <div class="bg-white rounded-xl h-150 w-full mb-20 flex items-center justify-center overflow-hidden">
             <!-- Placeholder for product image -->
             <div class="bg-white rounded-xl h-200 w-full mb-20 flex items-center justify-center overflow-hidden">
-              <img src="@/assets/ATOM.png" alt="ATOM Group" class="object-cover w-full h-full" />
+              <img src="@/assets/Atom.png" alt="ATOM Group" class="object-cover w-full h-full" />
             </div>
 
           </div>
