@@ -10,15 +10,15 @@
     <div class="text-center max-w-3xl mx-auto">
       <!-- Heading -->
       <div class="h-10"></div>
-      <h1 class="text-4xl  font-extrabold text-gray-900">
+      <h1 class="font-extrabold text-4xl text-gray-900">
         From
         <span class="text-[#01B8C6] font-extrabold text-4xl">
           Bold Ideas
-        </span><span class="text-4xl font-extrabold text-gray-900">to</span>
+        </span><span class="font-extrabold text-4xl text-gray-900">to</span>
         <span class="text-[#01B8C6] font-extrabold block mt-2 text-4xl">
           Industry Changing
         </span>
-        <span class="text-[#01B8C6] font-extrabold block mt-2 text-4xl">Solutions.</span>
+        <span class="font-extrabold block mt-2 text-4xl text-gray-900">Solutions.</span>
       </h1>
 
       <!-- Breadcrumb-like space -->
