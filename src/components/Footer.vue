@@ -6,6 +6,7 @@
       <div class="flex flex-col gap-4">
         <div class="flex items-center gap-3">
           <span class="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center text-2xl font-bold text-[#1cb5e0]">&#9673;</span>
+          <img src="@/assets/logo.png" alt="Atom Logo" class="w-8 h-8" />
           <span class="font-extrabold text-xl text-gray-800">ATOM</span>
         </div>
         <nav class="flex flex-wrap gap-6 text-gray-700 text-base">

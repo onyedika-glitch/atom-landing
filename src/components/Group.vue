@@ -28,7 +28,8 @@
           <img src="@/assets/Ai.png" alt="Handyman Product" class="object-cover w-full h-full" />
         </div>
         <div class="text-center">
-          <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Atom Group</h2>
+          <h2 class="text-4xl md:text-5xl font-extrabold uppercase text-gray-800 mb-4">Atom Group</h2>
+          <div class="h-10"></div>
           <p class="text-gray-500 text-xl">At Atom, we are not just building products, we're reshaping industries.</p>
         </div>
       </div>

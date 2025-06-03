@@ -3,7 +3,7 @@
     <div class="max-w-7xl mx-auto text-center mb-16">
       <h4 class="text-cyan-600 font-semibold text-lg">Services</h4>
       <div class="h-10"></div>
-      <h2 class="text-4xl font-bold text-gray-900 mt-2">What We DO</h2>
+      <h2 class="text-4xl font-extrbold text-gray-900 mt-2">What We DO</h2>
       <div class="h-10"></div>
       <p class="text-gray-500 max-w-2xl mx-auto mt-4 text-center">
         At ATOM, we deliver cutting-edge, enterprise-grade technology services designed to meet the evolving needs of modern businesses and institutions.
@@ -15,38 +15,67 @@
         <div
             v-for="(card, index) in services"
             :key="index"
-            class="group relative w-[28rem] h-[28rem] rounded-3xl p-6 overflow-hidden text-white cursor-pointer transition-all duration-500"
+            class="group relative w-[20rem] h-[26rem] rounded-[3rem] p-6 overflow-hidden text-white cursor-pointer transition-all duration-500"
             :class="card.bg"
         >
+
           <!-- Front Content -->
           <div class="absolute inset-0 flex flex-col justify-between p-6 transition-opacity duration-500 group-hover:opacity-0">
-            <div class="text-3xl mb-4">
-              <img :src="card.icon" alt= "service icon" class="w-12 h-12" />
-            </div>
+
+            <!-- Icon top-right -->
+            <img :src="card.icon" alt="service icon" class="absolute top-6 right-6 w-10 h-10" />
+
+            <!-- Title and Description -->
             <div>
-              <h3 class="text-3xl font-bold mb-3">{{ card.title }}</h3>
-              <p class="text-base">{{ card.description }}</p>
+              <div class="h-10"></div>
+              <div>
+              <h3 class="text-2xl font-semibold leading-tight mb-2 whitespace-pre-line">{{ card.title }}</h3>
             </div>
-            <p class="text-sm font-bold uppercase">ATOM</p>
+              <div class="h-10"></div>
+              <p class="text-white/80 text-base mt-3 leading-relaxed">
+                {{ card.description }}
+              </p>
+            </div>
+
+            <!-- ATOM Label -->
+            <p class="text-white font-bold uppercase text-sm mt-4">
+              ATOM
+            </p>
           </div>
+
+
 
           <!-- Back Content (fade in on hover) -->
           <div class="absolute inset-0 flex flex-col justify-between p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10">
+            <!-- Top Section -->
             <div>
-              <h3 class="text-3xl font-bold mb-4">Services</h3>
-              <div class="text-sm md:text-base ...">
-              <div v-if="card.backContent" class="flex flex-col gap-2">
-                <div v-for="(item, idx) in card.backContent" :key="idx" class="bg-white text-black px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gray-200">
-                  {{ item }}
-                </div>
-              </div>
-                </div>
+              <div class="h-20"></div>
+              <h3 class="text-4xl font-bold mb-6">Services</h3>
+              <div class="h-10"></div>
+              <!-- Service List with Custom SVG Bullets -->
+              <ul class="flex flex-col gap-6 text-left">
+                <li v-for="(item, idx) in card.backContent" :key="idx" class="flex items-start gap-4">
+                  <!-- Custom SVG icon -->
+                  <span class="min-w-[24px] min-h-[24px]">
+          <svg viewBox="0 0 24 24" class="w-6 h-6 text-white" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="9" stroke="white" stroke-width="2"/>
+            <circle cx="12" cy="12" r="4" fill="white"/>
+          </svg>
+        </span>
+                  <span class="text-white text-base leading-snug">{{ item }}</span>
+                </li>
+              </ul>
             </div>
-            <div>
-              <button class="bg-black text-white px-6 py-2 rounded-xl mt-6 hover:bg-gray-800">Get Started</button>
-              <p class="text-sm font-bold uppercase mt-2">ATOM</p>
+
+            <!-- Bottom CTA Section -->
+            <div class="flex flex-col items-start mt-8">
+              <button class="bg-white text-gray-900 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition">
+                Get Started
+              </button>
+              <p class="text-sm font-bold uppercase mt-3 text-white">ATOM</p>
             </div>
           </div>
+
 
           <!-- Animated Cube SVG -->
           <div class="absolute top-6 right-6 z-0 w-36 h-36 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
@@ -70,8 +99,8 @@ import iconAutomation from '@/assets/service Icons-4.svg'
 
 const services = ref([
   {
-    title: 'AI & Data Science',
-    description: 'We build intelligent solutions that drive efficiency and innovation across industries.',
+    title: 'AI &\n Data Science',
+    description: 'We build intelligent solutions that drive efficiency and \n innovation across industries.',
     bg: 'bg-gradient-to-br from-gray-700 to-gray-900',
     icon: iconAI,
     backContent: [
@@ -81,8 +110,8 @@ const services = ref([
     ]
   },
   {
-    title: 'Data Engineering & Analytics',
-    description: 'We enable data-driven decision-making by transforming raw data into actionable intelligence.',
+    title: 'Data Engineering & \n Analytics',
+    description: 'We enable data-driven decision-making by transforming \n raw data into actionable intelligence.',
     bg: 'bg-[#e57368]',
     icon: iconData,
     backContent: [
@@ -92,8 +121,8 @@ const services = ref([
     ]
   },
   {
-    title: 'Software & Application Development',
-    description: 'We engineer robust digital solutions with a focus on reliability, performance, and user experience.',
+    title: 'Software & \n Application Development',
+    description: 'We engineer robust digital solutions with a focus on reliability,\n performance, and user experience.',
     bg: 'bg-[#7b6cf6]',
     icon: iconSoftware,
     backContent: [
@@ -103,8 +132,8 @@ const services = ref([
     ]
   },
   {
-    title: 'Technical Strategy & Systems Consulting',
-    description: 'We work with companies to design, optimize, and scale their digital infrastructure.',
+    title: 'Technical Strategy & \n Systems Consulting',
+    description: 'We work with companies to design, optimize, \n and scale their digital infrastructure.',
     bg: 'bg-[#23b6c6]',
     icon: iconConsulting,
     backContent: [
@@ -114,8 +143,8 @@ const services = ref([
     ]
   },
   {
-    title: 'Artificial Intelligence Automation',
-    description: 'We build intelligent systems that drive efficiency and innovation across industries.',
+    title: 'Artificial \n Intelligence Automation',
+    description: 'We build intelligent systems that drive efficiency \n and innovation across industries.',
     bg: 'bg-gradient-to-br from-gray-700 to-gray-900',
     icon: iconAutomation,
     backContent: [

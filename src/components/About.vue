@@ -8,8 +8,9 @@
     <div class="h-10"></div>
     <!-- Centered Text Content -->
     <div class="flex flex-col justify-center items-center text-center h-full px-6 max-w-4xl mx-auto">
-      <h2 class="text-5xl font-semibold text-gray-900 mb-4">Who are We?</h2>
-      <p class="text-xl text-gray-600 mb-4">
+      <h2 class="text-8xl font-extrabold text-gray-900 mb-4">Who are We?</h2>
+      <div class="h-10"></div>
+      <p class="text-3xl text-gray-600 mb-4">
         At ATOM, we are builders of intelligent, future-ready solutions.
       </p>
       <div class="h-10"></div>

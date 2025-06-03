@@ -1,4 +1,5 @@
 <template>
+  <div class="h-10"></div>
   <section class="relative bg-[#F2FDFF] pb-20 pt-16 px-4 md:px-20 flex flex-col items-center justify-center text-center">
     <!-- Top-right animation -->
     <img
@@ -10,16 +11,14 @@
     <div class="text-center max-w-3xl mx-auto">
       <!-- Heading -->
       <div class="h-10"></div>
-      <h1 class="font-extrabold text-4xl text-gray-900">
-        From
-        <span class="text-[#01B8C6] font-extrabold text-4xl">
-          Bold Ideas
-        </span><span class="font-extrabold text-4xl text-gray-900">to</span>
-        <span class="text-[#01B8C6] font-extrabold block mt-2 text-4xl">
-          Industry Changing
-        </span>
-        <span class="font-extrabold block mt-2 text-4xl text-gray-900">Solutions.</span>
+      <h1 class="text-4xl font-extrabold text-gray-900">
+        <span class="text-4xl font-extrabold text-gray-900">From</span>
+        <span class="text-4xl font-extrabold text-[#01B8C6]"> Bold Ideas </span>
+        <span class="text-4xl font-extrabold text-gray-900">to</span>
+        <span class="block mt-2 text-4xl font-extrabold text-[#01B8C6]">Industry Changing</span>
+        <span class="block mt-2 text-4xl font-extrabold text-gray-900">Solutions.</span>
       </h1>
+    </div>
 
       <!-- Breadcrumb-like space -->
       <div class="h-10"></div>
@@ -33,20 +32,23 @@
       <div class="h-10"></div>
       <div class="mt-10 flex justify-center gap-4">
         <div class="h-10"></div>
-        <router-link
-            to="/products"
-            class="px-6 py-3 border border-gray-400 font-semibold rounded-md hover:bg-gray-100 transition cursor-pointer"
-        >
-          See Our Work
-        </router-link>
-        <router-link
-            to="/contact"
-            class="px-6 py-3 bg-[#01B8C6] text-white font-semibold rounded-md hover:bg-[#00a9b6] transition cursor-pointer"
-        >
-          Let’s Talk
-        </router-link>
-      </div>
-      <div class="h-10"></div>
+        <div class="flex flex-wrap gap-4 mt-8">
+          <router-link
+              to="/products"
+              class="px-8 py-4 border border-gray-400 text-lg font-extrabold rounded-lg hover:bg-gray-100 transition-shadow shadow-md cursor-pointer"
+          >
+            See Our Work
+          </router-link>
+
+          <router-link
+              to="/contact"
+              class="px-8 py-4 bg-[#01B8C6] text-white text-lg font-extrabold rounded-lg hover:bg-[#00a9b6] transition-shadow shadow-md cursor-pointer"
+          >
+            Let’s Talk
+          </router-link>
+        </div>
+
+        <div class="h-10"></div>
     </div>
     <div class="h-10"></div>
 
