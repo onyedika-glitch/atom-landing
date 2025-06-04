@@ -2,14 +2,16 @@
   <div class="h-10"></div>
   <section class="relative bg-white px-6 py-64 md:px-20 lg:py-[500px] overflow-hidden">
     <!-- Huge Background Title -->
+    <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">
     <h1 class="absolute top-0 left-1/2 transform -translate-x-1/2 text-[800px] md:text-[600px] font-bold text-[#21B6C8] leading-none z-0 select-none">
       Contact
     </h1>
-    <div class="h-10"></div>
+    <div class="h-40"></div>
     <div class="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-32 max-w-7xl mx-auto">
 
       <!-- Left Texts -->
       <div class="space-y-16">
+        <div class="text-left font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">
         <h2 class="text-7xl md:text-8xl font-normal text-gray-900 leading-tight text-center md:text-left">
           Leave us a message
         </h2>
@@ -17,6 +19,7 @@
           Follow Us
         </p>
       </div>
+        </div>
 
       <!-- Right Form -->
       <form @submit.prevent="submitForm" class="grid grid-cols-1 md:grid-cols-2 gap-10 w-full">
@@ -54,6 +57,7 @@
         </div>
       </form>
 
+    </div>
     </div>
   </section>
 </template>

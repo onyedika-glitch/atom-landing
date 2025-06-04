@@ -3,9 +3,11 @@
     <div class="h-10"></div>
     <!-- Centered, Bold Heading -->
     <div class="w-full text-center mb-24 px-4">
+      <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">
       <h2 class="text-4xl md:text-6xl font-extrabold leading-tight text-gray-900">
         The World of Artificial Intelligence
       </h2>
+    </div>
     </div>
 
     <!-- Content Row: Atom Left, Cards Right -->
@@ -16,7 +18,7 @@
         <img
             src="@/assets/animated-atom.png"
             alt="AI Illustration"
-            class="w-[250px] md:w-[320px]"
+            class="w-[200px] md:w-[300px] animate-spin-slow"
         />
       </div>
 

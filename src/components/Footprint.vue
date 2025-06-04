@@ -1,14 +1,14 @@
 <template>
   <div class="h-10"></div>
-  <section class="w-full bg-[#f8fdff] py-200 px-4 flex items-center justify-center">
+  <section class="w-full bg-[#ffffff] py-200 px-4 flex items-center justify-center">
     <div class="h-10"></div>
-    <div class="w-full max-w-5xl py-200 flex flex-col items-center text-center">
-
+    <div class="w-full max-w-5xl py-[200px] flex flex-col items-center text-center">
       <!-- Heading Section -->
-      <h2 class="text-6xl md:text-8xl font-extrabold text-gray-900">
+      <h2 class="font-figtree font-extrabold text-8xl text-[40px] leading-[1.2] tracking-[-0.02em] text-gray-900 text-center">
         Our Customer Footprint
       </h2>
-      <div class="h-10"></div>
+
+    <div class="h-10"></div>
       <!-- Line break and paragraph -->
       <p class="text-xl md:text-2xl text-gray-600 max-w-2xl mt-4">
         See how we're making an impact across regions and industries.

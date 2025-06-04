@@ -7,19 +7,17 @@
   >
     <div class="h-10"></div>
     <!-- Centered Text Content -->
-    <div class="flex flex-col justify-center items-center text-center h-full px-6 max-w-4xl mx-auto">
+    <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">
       <h2 class="text-8xl font-extrabold text-gray-900 mb-4">Who are We?</h2>
       <div class="h-10"></div>
-      <p class="text-3xl text-gray-600 mb-4">
-        At ATOM, we are builders of intelligent, future-ready solutions.
-      </p>
-      <div class="h-10"></div>
-      <p class="text-gray-600 text-lg leading-relaxed">
-        We’re a multidisciplinary team of AI engineers, software developers, designers, and project managers
-        dedicated to helping businesses thrive in the digital age. Whether it's developing our own innovative
-        AI products or partnering with clients to build theirs, we bring deep technical expertise, strategic
-        thinking, and creative problem-solving to every project.
-      </p>
+      <div class="text-center text-[#374151] font-[400] text-xl leading-[32px] tracking-[0.05em] font-sans max-w-5xl mx-auto space-y-4">
+        <p>At ATOM, we are builders of intelligent, future-ready solutions.</p>
+        <div class="h-10"></div>
+        <p>
+          We’re a multidisciplinary team of AI engineers, software developers, designers, and project managers dedicated to helping businesses thrive in the digital age. Whether it's developing our own innovative AI products or partnering with clients to build theirs, we bring deep technical expertise, strategic thinking, and creative problem-solving to every project.
+        </p>
+      </div>
+
     </div>
 
     <!-- Rotating Atom Icon -->

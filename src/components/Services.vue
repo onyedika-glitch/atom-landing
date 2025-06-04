@@ -1,21 +1,27 @@
 <template>
   <section class="w-full min-h-screen bg-white px-4 py-16 flex flex-col items-center justify-center text-center">
-    <div class="max-w-7xl mx-auto text-center mb-16">
-      <h4 class="text-cyan-600 font-semibold text-lg">Services</h4>
-      <div class="h-10"></div>
+    <div class="max-w-7xl mx-auto text-left mb-16">
+      <h4 class="text-[#01B8C6] font-bold text-[24px] leading-[1.5] tracking-[0] font-['Space_Grotesk']">
+        Services
+      </h4>
+
+      <div class="text-left font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">
       <h2 class="text-4xl font-extrbold text-gray-900 mt-2">What We DO</h2>
-      <div class="h-10"></div>
-      <p class="text-gray-500 max-w-2xl mx-auto mt-4 text-center">
+
+      <div class="text-left text-[#374151] font-[400] text-xl leading-[32px] tracking-[0.05em] font-sans max-w-5xl mx-auto space-y-4">
+      <p>
         At ATOM, we deliver cutting-edge, enterprise-grade technology services designed to meet the evolving needs of modern businesses and institutions.
       </p>
     </div>
+      </div>
+      </div>
 
     <div class="overflow-x-auto">
       <div class="flex gap-6 w-max px-4 animate-slide">
         <div
             v-for="(card, index) in services"
             :key="index"
-            class="group relative w-[20rem] h-[26rem] rounded-[3rem] p-6 overflow-hidden text-white cursor-pointer transition-all duration-500"
+            class="group relative w-[15rem] h-[20rem] rounded-[3rem] p-6 overflow-hidden text-white cursor-pointer transition-all duration-500"
             :class="card.bg"
         >
 
@@ -28,11 +34,13 @@
             <!-- Title and Description -->
             <div>
               <div class="h-10"></div>
-              <div>
-              <h3 class="text-2xl font-semibold leading-tight mb-2 whitespace-pre-line">{{ card.title }}</h3>
-            </div>
+              <h3 class=" text-left font-figtree font-[300] font-extrabold text-[40px] leading-[1.2] tracking-[-0.02em] text-white mb-2 whitespace-pre-line">
+                {{ card.title }}
+              </h3>
+
               <div class="h-10"></div>
-              <p class="text-white/80 text-base mt-3 leading-relaxed">
+              <p class="text-left font-figtree font-[400]  text-xl text-[16px] leading-[1.2] tracking-[-0.05em] text-white mb-2 whitespace-pre-line">
+
                 {{ card.description }}
               </p>
             </div>
@@ -49,9 +57,9 @@
           <div class="absolute inset-0 flex flex-col justify-between p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10">
             <!-- Top Section -->
             <div>
-              <div class="h-20"></div>
+              <div class="h-5"></div>
               <h3 class="text-4xl font-bold mb-6">Services</h3>
-              <div class="h-10"></div>
+              <div class="h-5"></div>
               <!-- Service List with Custom SVG Bullets -->
               <ul class="flex flex-col gap-6 text-left">
                 <li v-for="(item, idx) in card.backContent" :key="idx" class="flex items-start gap-4">

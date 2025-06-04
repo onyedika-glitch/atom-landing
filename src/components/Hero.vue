@@ -11,13 +11,16 @@
     <div class="text-center max-w-3xl mx-auto">
       <!-- Heading -->
       <div class="h-10"></div>
-      <h1 class="text-4xl font-extrabold text-gray-900">
-        <span class="text-4xl font-extrabold text-gray-900">From</span>
-        <span class="text-4xl font-extrabold text-[#01B8C6]"> Bold Ideas </span>
-        <span class="text-4xl font-extrabold text-gray-900">to</span>
-        <span class="block mt-2 text-4xl font-extrabold text-[#01B8C6]">Industry Changing</span>
-        <span class="block mt-2 text-4xl font-extrabold text-gray-900">Solutions.</span>
-      </h1>
+      <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">
+        <h1>
+          <span class="font-normal text-gray-800">From</span>
+          <span class="font-bold text-[#01B8C6]"> Bold Ideas </span>
+          <span class="font-normal text-gray-800">to</span>
+        </h1>
+        <h1 class="font-bold text-[#01B8C6] leading-[72px]">Industry Changing</h1>
+        <h1 class="font-normal text-gray-800">Solutions.</h1>
+      </div>
+
     </div>
 
       <!-- Breadcrumb-like space -->
@@ -32,17 +35,17 @@
       <div class="h-10"></div>
       <div class="mt-10 flex justify-center gap-4">
         <div class="h-10"></div>
-        <div class="flex flex-wrap gap-4 mt-8">
+        <div class="flex gap-6 ">
           <router-link
               to="/products"
-              class="px-8 py-4 border border-gray-400 text-lg font-extrabold rounded-lg hover:bg-gray-100 transition-shadow shadow-md cursor-pointer"
+              class="w-[200px] h-[60px] flex items-center justify-center rounded-[12px] bg-white text-gray-800 text-lg font-medium font-inter shadow hover:bg-gray-100 transition"
           >
             See Our Work
           </router-link>
 
           <router-link
               to="/contact"
-              class="px-8 py-4 bg-[#01B8C6] text-white text-lg font-extrabold rounded-lg hover:bg-[#00a9b6] transition-shadow shadow-md cursor-pointer"
+              class="w-[200px] h-[60px] flex items-center justify-center rounded-[12px] bg-[#01B8C6] text-white text-lg font-medium font-inter hover:bg-[#00a9b6] transition"
           >
             Let’s Talk
           </router-link>

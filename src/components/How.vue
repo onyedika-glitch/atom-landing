@@ -5,7 +5,8 @@
       <div class="h-10"></div>
       <h4 class="text-teal-600 text-lg font-semibold mb-2">How We Work</h4>
       <div class="h-10"></div>
-      <h2 class="text-4xl md:text-6xl font-bold text-gray-800 leading-tight">
+<div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">
+      <h2 class="text-4xl md:text-6xl font-normal font-[300] text-gray-800 leading-tight">
         Collaboration is at the heart of everything we do.
       </h2>
     </div>
@@ -51,6 +52,7 @@
       <div class="flex justify-center lg:justify-end">
         <img src="@/assets/Group.png" alt="Team Collaboration" class="w-full max-w-xl rounded-3xl shadow-lg" />
       </div>
+    </div>
     </div>
   </section>
 </template>
