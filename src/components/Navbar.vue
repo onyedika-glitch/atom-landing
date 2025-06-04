@@ -2,7 +2,7 @@
   <div class="flex justify-between items-center p-4 sticky top-0 bg-white z-50">
     <!-- Logo and Brand Name -->
     <div class="flex items-center gap-2">
-      <img src="@/assets/logo.png" alt="Atom Logo" class="w-8 h-8" />
+      <img src="@/assets/Logo_Atom.png" alt="Atom Logo" class="w-8 h-8" />
       <span class="text-xl font-semibold">Atom</span>
     </div>
 
