@@ -34,9 +34,12 @@
             <!-- Title and Description -->
             <div>
               <div class="h-10"></div>
-              <h3 class=" text-left font-figtree font-[300] font-extrabold text-[40px] leading-[1.2] tracking-[-0.02em] text-white mb-2 whitespace-pre-line">
-                {{ card.title }}
-              </h3>
+              <h3
+                  class="text-left font-figtree font-[300] text-[40px] leading-[1.25] tracking-[-0.02em] text-white mb-2"
+                  v-html="card.title"
+              />
+
+
 
               <div class="h-10"></div>
               <p class="text-left font-figtree font-[400]  text-xl text-[16px] leading-[1.2] tracking-[-0.05em] text-white mb-2 whitespace-pre-line">
@@ -107,7 +110,7 @@ import iconAutomation from '@/assets/service Icons-4.svg'
 
 const services = ref([
   {
-    title: 'AI &\n Data Science',
+    title: 'AI & <br/> Data Science',
     description: 'We build intelligent solutions that drive efficiency and \n innovation across industries.',
     bg: 'bg-gradient-to-br from-gray-700 to-gray-900',
     icon: iconAI,
@@ -118,7 +121,7 @@ const services = ref([
     ]
   },
   {
-    title: 'Data Engineering & \n Analytics',
+    title: 'Data<br/> Engineering & <br/> Analytics',
     description: 'We enable data-driven decision-making by transforming \n raw data into actionable intelligence.',
     bg: 'bg-[#e57368]',
     icon: iconData,
@@ -129,7 +132,7 @@ const services = ref([
     ]
   },
   {
-    title: 'Software & \n Application Development',
+    title: 'Software & <br/>   Application <br/>  Development',
     description: 'We engineer robust digital solutions with a focus on reliability,\n performance, and user experience.',
     bg: 'bg-[#7b6cf6]',
     icon: iconSoftware,
@@ -140,7 +143,7 @@ const services = ref([
     ]
   },
   {
-    title: 'Technical Strategy & \n Systems Consulting',
+    title: 'Technical <br/> Strategy & <br/> Systems <br/> Consulting',
     description: 'We work with companies to design, optimize, \n and scale their digital infrastructure.',
     bg: 'bg-[#23b6c6]',
     icon: iconConsulting,
@@ -151,7 +154,7 @@ const services = ref([
     ]
   },
   {
-    title: 'Artificial \n Intelligence Automation',
+    title: 'Artificial <br/>  Intelligence <br/> Automation',
     description: 'We build intelligent systems that drive efficiency \n and innovation across industries.',
     bg: 'bg-gradient-to-br from-gray-700 to-gray-900',
     icon: iconAutomation,

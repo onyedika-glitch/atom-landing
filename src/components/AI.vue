@@ -11,18 +11,18 @@
     </div>
 
     <!-- Content Row: Atom Left, Cards Right -->
-    <div class="relative flex flex-col md:flex-row items-start justify-between w-full max-w-7xl min-h-[800px]">
+    <!-- Absolute Left-Aligned Atom -->
+    <div class="absolute left-0 top-0 z-10">
+      <img
+          src="@/assets/animated-atom.png"
+          alt="AI Illustration"
+          class="w-[200px] md:w-[200px] animate-spin-slow"
+      />
+    </div>
 
-      <!-- Animated Atom (Left) -->
-      <div ref="atomRef" class="relative z-10 w-full md:w-1/2 flex justify-center md:justify-start mb-20 md:mb-0">
-        <img
-            src="@/assets/animated-atom.png"
-            alt="AI Illustration"
-            class="w-[200px] md:w-[300px] animate-spin-slow"
-        />
-      </div>
 
-      <!-- Floating Cards Area (Right) -->
+
+    <!-- Floating Cards Area (Right) -->
       <div class="relative w-full md:w-1/2 h-[800px]">
         <div
             v-for="(card, index) in cards"
@@ -34,7 +34,6 @@
         </div>
       </div>
 
-    </div>
   </section>
 </template>
 
@@ -107,4 +106,17 @@ const cards = [
   color: #444;
   line-height: 1.5;
 }
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
+}
+
 </style>

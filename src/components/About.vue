@@ -19,9 +19,9 @@
       </div>
 
     </div>
-
+    <div class="h-10"></div>
     <!-- Rotating Atom Icon -->
-    <div class="absolute bottom-10 right-10 w-40 h-40 opacity-90">
+    <div class="absolute bottom-1 right-10 w-40 h-40 opacity-90">
       <img
           src="@/assets/animated-atom.png"
           alt="AI Icon"

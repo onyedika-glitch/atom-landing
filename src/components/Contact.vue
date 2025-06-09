@@ -26,30 +26,59 @@
         <!-- Row 1 -->
         <div>
           <label class="block font-bold mb-3 text-2xl">Name</label>
-          <input v-model="form.name" type="text" required class="w-full border-b border-gray-400 focus:outline-none pb-3 text-xl" />
+          <input
+              v-model="form.name"
+              type="text"
+              required
+              class="w-full border-none focus:outline-none text-xl"
+          />
+          <hr class="border-t-4 border-gray-800 mt-1" />
         </div>
         <div>
           <label class="block font-bold mb-3 text-2xl">Company</label>
-          <input v-model="form.company" type="text" class="w-full border-b border-gray-400 focus:outline-none pb-3 text-xl" />
+          <input
+              v-model="form.company"
+              type="text"
+              class="w-full border-none focus:outline-none text-xl"
+          />
+          <hr class="border-t-4 border-gray-800 mt-1" />
         </div>
 
         <!-- Row 2 -->
         <div>
           <label class="block font-bold mb-3 text-2xl">Email</label>
-          <input v-model="form.email" type="email" required class="w-full border-b border-gray-400 focus:outline-none pb-3 text-xl" />
+          <input
+              v-model="form.email"
+              type="email"
+              required
+              class="w-full border-none focus:outline-none text-xl"
+          />
+          <hr class="border-t-4 border-gray-800 mt-1" />
         </div>
         <div>
           <label class="block font-bold mb-3 text-2xl">Phone</label>
-          <input v-model="form.phone" type="text" class="w-full border-b border-gray-400 focus:outline-none pb-3 text-xl" />
+          <input
+              v-model="form.phone"
+              type="text"
+              class="w-full border-none focus:outline-none text-xl"
+          />
+          <hr class="border-t-4 border-gray-800 mt-1" />
         </div>
 
         <!-- Message Row (spans 2 columns) -->
         <div class="md:col-span-2">
           <label class="block font-bold mb-3 text-2xl">Write your message to us</label>
-          <textarea v-model="form.message" required class="w-full border-b border-gray-400 focus:outline-none pb-3 resize-none text-xl" rows="4"></textarea>
+          <textarea
+              v-model="form.message"
+              required
+              rows="4"
+              class="w-full border-none focus:outline-none resize-none text-xl"
+          ></textarea>
+          <hr class="border-t-4 border-gray-800 mt-1" />
         </div>
 
-        <!-- Send Button -->
+
+      <!-- Send Button -->
         <div class="md:col-span-2 flex justify-end mt-6">
           <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white px-10 py-4 rounded-md text-xl font-semibold transition-colors">
             Send
