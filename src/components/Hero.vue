@@ -1,6 +1,7 @@
 <template>
-  <div class="h-10"></div>
+  <div class="h-20"></div>
   <section class="relative bg-[#F2FDFF] pb-20 pt-16 px-4 md:px-20 flex flex-col items-center justify-center text-center">
+   
     <!-- Top-right animation -->
     <img
         src="@/assets/Cube.png"

@@ -1,12 +1,15 @@
 <template>
-  <div class="h-10"></div>
+  <div class="h-20"></div>
   <section class="relative bg-white px-6 py-64 md:px-20 lg:py-[500px] overflow-hidden">
     <!-- Huge Background Title -->
     <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">
-    <h1 class="absolute top-0 left-1/2 transform -translate-x-1/2 text-[800px] md:text-[600px] font-bold text-[#21B6C8] leading-none z-0 select-none">
-      Contact
-    </h1>
-    <div class="h-40"></div>
+
+      <div class="hidden lg:block absolute top-0 left-1/2 transform -translate-x-1/2 z-0 w-full overflow-hidden pointer-events-none">
+  <span class="block text-[#21B6C8] font-extrabold text-[20vw] leading-none whitespace-nowrap select-none text-center">
+    CONTACT
+  </span>
+      </div>
+    <div class="h-80"></div>
     <div class="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-32 max-w-7xl mx-auto">
 
       <!-- Left Texts -->
@@ -15,7 +18,7 @@
         <h2 class="text-7xl md:text-8xl font-normal text-gray-900 leading-tight text-center md:text-left">
           Leave us a message
         </h2>
-        <p class="text-[#00A9B7] font-extrabold text-4xl text-center md:text-left">
+        <p class="text-[#00A9B7] font-normal text-4xl text-center md:text-left">
           Follow Us
         </p>
       </div>

@@ -111,7 +111,7 @@ import iconAutomation from '@/assets/service Icons-4.svg'
 const services = ref([
   {
     title: 'AI & <br/> Data Science',
-    description: 'We build intelligent solutions that drive efficiency and \n innovation across industries.',
+    description: 'We build intelligent  solutions that drive efficiency and  innovation across industries.',
     bg: 'bg-gradient-to-br from-gray-700 to-gray-900',
     icon: iconAI,
     backContent: [
@@ -122,7 +122,7 @@ const services = ref([
   },
   {
     title: 'Data<br/> Engineering & <br/> Analytics',
-    description: 'We enable data-driven decision-making by transforming \n raw data into actionable intelligence.',
+    description: 'We enable data-driven decision-making by transforming  raw data into  actionable intelligence.',
     bg: 'bg-[#e57368]',
     icon: iconData,
     backContent: [
@@ -133,7 +133,7 @@ const services = ref([
   },
   {
     title: 'Software & <br/>   Application <br/>  Development',
-    description: 'We engineer robust digital solutions with a focus on reliability,\n performance, and user experience.',
+    description: 'We engineer robust digital solutions with a focus on  reliability, performance, and  user experience.',
     bg: 'bg-[#7b6cf6]',
     icon: iconSoftware,
     backContent: [
@@ -144,7 +144,7 @@ const services = ref([
   },
   {
     title: 'Technical <br/> Strategy & <br/> Systems <br/> Consulting',
-    description: 'We work with companies to design, optimize, \n and scale their digital infrastructure.',
+    description: 'We work with companies to design, optimize, and scale their digital infrastructure.',
     bg: 'bg-[#23b6c6]',
     icon: iconConsulting,
     backContent: [
@@ -155,7 +155,7 @@ const services = ref([
   },
   {
     title: 'Artificial <br/>  Intelligence <br/> Automation',
-    description: 'We build intelligent systems that drive efficiency \n and innovation across industries.',
+    description: 'We build intelligent systems that drive efficiency  and  innovation across industries.',
     bg: 'bg-gradient-to-br from-gray-700 to-gray-900',
     icon: iconAutomation,
     backContent: [

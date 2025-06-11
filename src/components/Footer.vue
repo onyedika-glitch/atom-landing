@@ -39,10 +39,12 @@
     </div>
     <div class="h-30"></div>
     <!-- Huge faded background text -->
-    <div class="absolute left-0 bottom-0 w-full overflow-hidden select-none pointer-events-none">
-      <span class="text-[3rem] md:text-[7rem] font-extrabold text-[#eaf6fa] tracking-tight whitespace-nowrap leading-none">
-        ATOM GROUP
-      </span>
+    <!-- Only visible on large (lg) screens and up -->
+    <div class="hidden lg:flex absolute inset-0 justify-center items-end w-full h-full pointer-events-none z-0 overflow-hidden">
+  <span class="text-[#eaf6fa] font-extrabold text-[12vw] tracking-tight leading-none whitespace-nowrap">
+    ATOM GROUP
+  </span>
     </div>
+
   </footer>
 </template>

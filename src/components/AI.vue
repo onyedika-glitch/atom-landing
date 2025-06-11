@@ -1,15 +1,16 @@
 <template>
+  <div class="h-20"></div>
   <section class="relative bg-white py-16 px-6 md:px-16 overflow-hidden flex flex-col items-center justify-center">
     <div class="h-10"></div>
     <!-- Centered, Bold Heading -->
     <div class="w-full text-center mb-24 px-4">
       <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">
       <h2 class="text-4xl md:text-6xl font-extrabold leading-tight text-gray-900">
-        The World of Artificial Intelligence
+        The World of Artificial <br /> Intelligence
       </h2>
     </div>
     </div>
-
+    <div class="h-10"></div>
     <!-- Content Row: Atom Left, Cards Right -->
     <!-- Absolute Left-Aligned Atom -->
     <div class="absolute left-0 top-0 z-10">
@@ -29,7 +30,7 @@
             :key="index"
             :class="['absolute card z-20', card.position]"
         >
-          <div class="w-8 h-8 mb-3" v-html="card.icon" />
+          <div class="w-20 h-10 mb-3" v-html="card.icon" />
           <p class="card-text">{{ card.text }}</p>
         </div>
       </div>
