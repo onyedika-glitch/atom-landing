@@ -1,6 +1,6 @@
 <template>
   <div class="h-10"></div>
-  <div class="flex justify-between items-center p-4 sticky top-0 bg-white z-50  max-w-7xl mx-auto ">
+  <div class="mx-auto w-[1380px] flex justify-between items-center p-4 sticky top-0 bg-white z-50  max-w-7xl mx-auto ">
     <!-- Logo and Brand Name -->
 
     <div class="flex flex-col gap-2">

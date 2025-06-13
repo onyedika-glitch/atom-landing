@@ -1,20 +1,21 @@
 <template>
-  <section class="w-full min-h-screen bg-white px-4 py-16 flex flex-col items-center justify-center text-center">
-    <div class="max-w-7xl mx-auto text-left mb-16">
+  <section class="w-full min-h-screen mx-auto w-[1380px] bg-white px-4 py-16 flex flex-col items-center justify-center text-center">
+    <div class="text-left mb-16 px-4">
       <h4 class="text-[#01B8C6] font-bold text-[24px] leading-[1.5] tracking-[0] font-['Space_Grotesk']">
         Services
       </h4>
 
       <div class="text-left font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">
-      <h2 class="text-4xl font-extrbold text-gray-900 mt-2">What We DO</h2>
+        <h2 class="text-4xl font-extrabold text-gray-900 mt-2">What We DO</h2>
 
-      <div class="text-left text-[#374151] font-[400] text-xl leading-[32px] tracking-[0.05em] font-sans max-w-5xl mx-auto space-y-4">
-      <p>
-        At ATOM, we deliver cutting-edge, enterprise-grade technology services designed to meet the evolving needs of modern businesses and institutions.
-      </p>
+        <div class="text-left text-[#374151] font-[400] text-xl leading-[32px] tracking-[0.05em] font-sans space-y-4">
+          <p>
+            At ATOM, we deliver cutting-edge, enterprise-grade technology services designed to meet the evolving needs of modern businesses and institutions.
+          </p>
+        </div>
+      </div>
     </div>
-      </div>
-      </div>
+
 
     <div class="overflow-x-auto">
       <div class="flex gap-6 w-max px-4 animate-slide">

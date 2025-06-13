@@ -1,5 +1,5 @@
 <template>
-  <section class="relative bg-white px-6 md:px-20 py-40 overflow-hidden">
+  <section class="relative mx-auto w-[1380px] bg-white px-6 md:px-20 py-40 overflow-hidden">
     <!-- Huge Background Title -->
     <div class="hidden lg:block absolute top-0 left-1/2 transform -translate-x-1/2 z-0 w-full overflow-hidden pointer-events-none">
       <span class="block text-[#E1F6F8] font-bold text-[20vw] leading-none whitespace-nowrap select-none text-center">

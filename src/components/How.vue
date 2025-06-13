@@ -1,6 +1,6 @@
 <template>
   <div class="h-20"></div>
-  <section class="bg-white py-24 px-0 md:px-0">
+  <section class="mx-auto w-[1380px] bg-white py-24 px-0 md:px-0">
     <div class="text-center max-w-none w-full mx-0 mb-20">
 
       <h4 class="text-teal-600 text-lg font-normal mb-2">How We Work</h4>
