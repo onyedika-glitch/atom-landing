@@ -6,6 +6,7 @@ module.exports = {
                 figtree: ['Figtree', 'sans-serif'],
                 inter: ['Inter', 'sans-serif'],
                 grotesk: ['"Space Grotesk"', 'sans-serif'],
+                kufam: ['Kufam', 'sans-serif'],
             },
             fontSize: {
                 'display-xl': ['64px', {
@@ -14,6 +15,9 @@ module.exports = {
                     animation: {
                         'spin-slow': 'spin 6s linear infinite',
                     },
+                    plugins: [
+                        require('@tailwindcss/line-clamp'),
+                    ],
                 }],
             },
         },
