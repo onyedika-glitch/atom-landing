@@ -1,5 +1,5 @@
 <template>
-  <div class="h-20"></div>
+  <div class="h-10"></div>
   <section
       class="relative bg-[#F2FDFF] mx-auto w-[1332px] h-[1132px] pt-[80px] pr-[30px] pb-[80px] pl-[30px] gap-[10px] rounded-[6rem] border-2 border-dashed flex flex-col items-center justify-center text-center"
   >
@@ -10,10 +10,10 @@
         alt="Animated graphic"
         class="animated-cube absolute top-10 right-10 w-56 h-56 opacity-30 pointer-events-none"
     />
-    <div class="h-10"></div>
+
     <div class="text-center max-w-3xl mx-auto">
       <!-- Heading -->
-      <div class="h-10"></div>
+      <div class="h-5"></div>
       <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">
         <h1>
           <span class="font-normal text-gray-800">From</span>
