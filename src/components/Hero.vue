@@ -1,8 +1,10 @@
 <template>
   <div class="h-20"></div>
-  <section class="relative bg-[#F2FDFF] py-48 px-2 md:px-8 rounded-3xl border-2 border-dashed flex flex-col items-center justify-center text-center">
+  <section
+      class="relative bg-[#F2FDFF] mx-auto w-[1332px] h-[1132px] pt-[80px] pr-[30px] pb-[80px] pl-[30px] gap-[10px] rounded-[6rem] border-2 border-dashed flex flex-col items-center justify-center text-center"
+  >
 
-    <!-- Top-right animation -->
+  <!-- Top-right animation -->
     <img
         src="@/assets/Cube.png"
         alt="Animated graphic"
