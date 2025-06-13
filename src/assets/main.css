@@ -1,4 +1,6 @@
 @import 'tailwindcss';
 @import 'tailwindcss/preflight';
 @tailwind utilities;
-
+body {
+    @apply !overflow-x-hidden;
+}
