@@ -5,13 +5,12 @@
     <!-- Centered, Bold Heading -->
     <div class="w-full text-center mb-24 px-4">
       <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">
-      <h2 class="text-4xl md:text-6xl font-extrabold leading-tight text-gray-900">
-        The World of Artificial <br /> Intelligence
-      </h2>
-    </div>
+        <h2 class="text-4xl md:text-6xl font-extrabold leading-tight text-gray-900">
+          The World of Artificial <br /> Intelligence
+        </h2>
+      </div>
     </div>
     <div class="h-10"></div>
-    <!-- Content Row: Atom Left, Cards Right -->
     <!-- Absolute Left-Aligned Atom -->
     <div class="absolute left-8 top-8 z-10">
       <img
@@ -20,21 +19,18 @@
           class="w-[200px] md:w-[200px] animate-spin-slow"
       />
     </div>
-
-
-
+    <div class="h-10"></div>
     <!-- Floating Cards Area (Right) -->
-      <div class="relative w-full md:w-1/2 h-[800px]">
-        <div
-            v-for="(card, index) in cards"
-            :key="index"
-            :class="['absolute card z-20', card.position]"
-        >
-          <div class="w-20 h-10 mb-3" v-html="card.icon" />
-          <p class="card-text">{{ card.text }}</p>
-        </div>
+    <div class="relative w-full md:w-1/2 h-[650px]">
+      <div
+          v-for="(card, index) in cards"
+          :key="index"
+          :class="['absolute card z-20', card.position]"
+      >
+        <div class="w-20 h-10 mb-3" v-html="card.icon" />
+        <p class="card-text">{{ card.text }}</p>
       </div>
-
+    </div>
   </section>
 </template>
 
@@ -63,35 +59,33 @@ const cards = [
   {
     icon: mlIcon,
     text: 'Machine learning allows AI systems to improve over time — just like we learn from experience.',
-    position: 'top-0 left-[15%]'
+    position: 'top-0 left-[150px]'
   },
   {
     icon: dataIcon,
     text: 'AI analyzes huge amounts of data in seconds, helping businesses make faster, smarter decisions.',
-    position: 'top-[20%] right-[5%]'
+    position: 'top-[80px] left-[360px]'
   },
   {
     icon: smartphoneIcon,
     text: 'From your smartphone keyboard to Netflix recommendations — AI is behind many tools you use daily.',
-    position: 'top-1/2 left-[8%] -translate-y-1/2'
+    position: 'top-[220px] left-0'
   },
   {
     icon: customIcon,
     text: 'AI isn’t one-size-fits-all — businesses can build tailored models that solve their specific challenges.',
-    position: 'bottom-[32%] right-[8%]'
+    position: 'top-[220px] left-[420px]'
   },
   {
     icon: industryIcon,
     text: 'AI is revolutionizing healthcare, finance, education, agriculture, and beyond.',
-    position: 'bottom-[16%] left-[18%]'
-  },
-
+    position: 'top-[350px] left-[210px]'
+  }
 ]
 </script>
 
 <style scoped>
 .card {
-  max-width: 240px;
   background: white;
   padding: 18px;
   border-radius: 18px;
@@ -99,14 +93,42 @@ const cards = [
   text-align: left;
   transition: transform 0.3s ease;
 }
+
 .card:hover {
   transform: translateY(-4px);
 }
+
 .card-text {
   font-size: 0.92rem;
   color: #444;
   line-height: 1.5;
 }
+
+.card:nth-child(1) {
+  width: 200px;
+  height: 200px;
+}
+
+.card:nth-child(2) {
+  width: 400px;
+  height: 120px;
+}
+
+.card:nth-child(3) {
+  width: 400px;
+  height: 125px;
+}
+
+.card:nth-child(4) {
+  width: 200px;
+  height: 200px;
+}
+
+.card:nth-child(5) {
+  width: 200px;
+  height: 200px;
+}
+
 @keyframes spin-slow {
   from {
     transform: rotate(0deg);
@@ -119,5 +141,4 @@ const cards = [
 .animate-spin-slow {
   animation: spin-slow 20s linear infinite;
 }
-
 </style>

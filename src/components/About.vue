@@ -1,11 +1,10 @@
 <!-- About.vue -->
 <template>
-  <div class="h-3"></div>
   <section
       class="relative w-full h-screen bg-white bg-[url('@/assets/grid-bg.svg')] bg-cover bg-center overflow-hidden
       flex flex-col items-center justify-center text-center"
   >
-    <div class="h-10"></div>
+
     <!-- Centered Text Content -->
     <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">
       <h2 class="text-8xl font-extrabold text-gray-900 mb-4">Who are We?</h2>

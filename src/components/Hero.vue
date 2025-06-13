@@ -57,7 +57,7 @@
     <div class="h-10"></div>
 
     <!-- Hero Image -->
-    <div class="mt-16 mx-auto max-w-4xl px-4">
+    <div class="mt-16 mx-auto max-w-5xl px-4">
       <img
           src="@/assets/ai-team.jpg"
           alt="AI team"

@@ -2,16 +2,15 @@
   <div class="h-20"></div>
   <section class="bg-white py-24 px-0 md:px-0">
     <div class="text-center max-w-none w-full mx-0 mb-20">
-      <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[56px] px-6 md:px-20">
-      <h4 class="text-teal-600 text-lg font-semibold mb-2">How We Work</h4>
-      <div class="h-10"></div>
+
+      <h4 class="text-teal-600 text-lg font-normal mb-2">How We Work</h4>
+      <div class="h-5"></div>
       <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[56px] px-6 md:px-20">
         <h2 class="text-4xl md:text-6xl font-normal font-[300] text-gray-800 leading-tight">
-          Collaboration is at the heart of everything we do.
+          Collaboration is at the heart of <br /> everything we do.
         </h2>
       </div>
         </div>
-    </div>
     <div class="h-10"></div>
     <!-- Full-width Grid -->
     <div class="grid grid-cols-1 lg:grid-cols-2 w-full items-start">
@@ -35,6 +34,7 @@
             <!-- Content -->
             <div class="text-gray-600 text-lg space-y-6">
               <p>{{ item.description }}</p>
+              <div class="h-3"></div>
               <div v-if="item.button">
                 <router-link
                     to="/contact"

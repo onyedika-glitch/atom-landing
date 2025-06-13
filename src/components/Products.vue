@@ -1,5 +1,6 @@
 <template>
-  <div class="h-10"></div>
+
+  <div class="h-50"></div>
   <section
       class="w-[calc(100%-2rem)] ml-auto bg-[#181e23] py-48 px-2 md:px-8 rounded-3xl border-2 border-dashed border-[#b0c4ce] min-h-[700px]"
   >
