@@ -1,7 +1,7 @@
 <template>
   <div class="h-20"></div>
-  <section class="relative bg-[#F2FDFF] pb-20 pt-16 px-4 md:px-20 flex flex-col items-center justify-center text-center">
-   
+  <section class="relative bg-[#F2FDFF] py-48 px-2 md:px-8 rounded-3xl border-2 border-dashed flex flex-col items-center justify-center text-center">
+
     <!-- Top-right animation -->
     <img
         src="@/assets/Cube.png"
@@ -57,7 +57,7 @@
     <div class="h-10"></div>
 
     <!-- Hero Image -->
-    <div class="mt-16 mx-auto max-w-3xl px-4">
+    <div class="mt-16 mx-auto max-w-4xl px-4">
       <img
           src="@/assets/ai-team.jpg"
           alt="AI team"

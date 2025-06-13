@@ -1,6 +1,6 @@
 <!-- About.vue -->
 <template>
-  <div class="h-10"></div>
+  <div class="h-3"></div>
   <section
       class="relative w-full h-screen bg-white bg-[url('@/assets/grid-bg.svg')] bg-cover bg-center overflow-hidden
       flex flex-col items-center justify-center text-center"

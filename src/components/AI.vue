@@ -13,7 +13,7 @@
     <div class="h-10"></div>
     <!-- Content Row: Atom Left, Cards Right -->
     <!-- Absolute Left-Aligned Atom -->
-    <div class="absolute left-0 top-0 z-10">
+    <div class="absolute left-8 top-8 z-10">
       <img
           src="@/assets/animated-atom.png"
           alt="AI Illustration"

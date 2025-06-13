@@ -37,7 +37,7 @@
         <a href="/cookies" class="hover:underline">Cookies</a>
       </div>
     </div>
-    <div class="h-30"></div>
+    <div class="h-50"></div>
     <!-- Huge faded background text -->
     <!-- Only visible on large (lg) screens and up -->
     <div class="hidden lg:flex absolute inset-0 justify-center items-end w-full h-full pointer-events-none z-0 overflow-hidden">

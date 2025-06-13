@@ -20,19 +20,19 @@
         <section class="max-w-[2000px] h-[240px] w-full mx-auto px-8 py-10 bg-gray-100 rounded-[24px] flex items-center justify-between gap-16">
           <!-- Stat 1 -->
           <div class="text-center flex-1">
-            <div class="text-[#1cb5e0] text-5xl font-extrabold">1000+</div>
+            <div class="text-[#1AA9B9] text-5xl font-extrabold">1000+</div>
             <div class="text-[#111827] text-lg font-semibold mt-2">Clients</div>
           </div>
 
           <!-- Stat 2 -->
           <div class="text-center flex-1">
-            <div class="text-[#1cb5e0] text-5xl font-extrabold">600%</div>
+            <div class="text-[#1AA9B9] text-5xl font-extrabold">600%</div>
             <div class="text-[#111827] text-lg font-semibold mt-2">Value increase</div>
           </div>
 
           <!-- Stat 3 -->
           <div class="text-center flex-1">
-            <div class="text-[#1cb5e0] text-5xl font-extrabold">830</div>
+            <div class="text-[#1AA9B9] text-5xl font-extrabold">830</div>
             <div class="text-[#111827] text-lg font-semibold mt-2">Finished products</div>
           </div>
         </section>
