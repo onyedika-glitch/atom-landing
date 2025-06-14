@@ -1,4 +1,5 @@
 <template>
+  <div class="h-10"></div>
   <section class="relative mx-auto w-[1380px] bg-white px-6 md:px-20 py-40 overflow-hidden">
     <!-- Huge Background Title -->
     <div class="hidden lg:block absolute top-0 left-1/2 transform -translate-x-1/2 z-0 w-full overflow-hidden pointer-events-none">
@@ -17,6 +18,7 @@
             Leave us a message
           </h2>
         </div>
+          <div class="h-5"></div>
         <div>
           <p class="text-[#00A9B7] text-lg font-semibold text-left">Follow Us</p>
         </div>

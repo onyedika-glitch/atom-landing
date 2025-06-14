@@ -2,9 +2,10 @@
 
   <div class="h-50"></div>
   <section
-      class="ml-auto bg-[#181e23] mx-auto w-[1380px] py-48 px-2 md:px-8 rounded-3xl border-2 border-dashed border-[#b0c4ce] min-h-[700px]"
+      class="relative bg-[#181e23] mx-auto w-full h-[865px] px-[30px]
+       rounded-[6rem] border-2 border-dashed border-[#b0c4ce] min-h-[700px]  items-center justify-center text-center"
   >
-    <div class="h-10"></div>
+    <div class="h-30"></div>
     <div class="max-w-6xl mx-auto">
       <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
         <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[56px] px-6 md:px-20">
@@ -16,9 +17,9 @@
         </p>
       </div>
         </div>
-      <div class="h-20"></div>
-      <hr class="border-gray-600 mb-8" />
 
+      <hr class="border-gray-600 mb-8" />
+      <div class="h-20"></div>
       <div class="flex flex-col md:flex-row gap-6 justify-center items-stretch">
         <!-- Product 1 -->
         <div class="bg-[#23282f] rounded-2xl p-4 flex-1 min-w-[260px] max-w-xs flex flex-col relative">
@@ -28,9 +29,18 @@
             <div class="absolute inset-0 bg-blue-500 opacity-0 group-hover:opacity-40 transition-opacity duration-300 rounded-xl z-10"></div>
           </div>
           <div class="absolute bottom-4 right-4">
-            <div class="w-12 h-12 bg-gray-700 rounded-full flex items-center justify-center text-white text-2xl shadow-lg cursor-pointer transition-all duration-300 group-hover:bg-[#00A9B7] group-hover:text-white">
-              &#8599;
+            <div class="w-12 h-12 rounded-full overflow-hidden shadow-lg cursor-pointer transition-all duration-300 group-hover:bg-[#00A9B7]">
+              <img
+                  src="@/assets/Arrow.png"
+                  alt="Arrow Icon"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+              />
+              <!-- Blue glow animation -->
+              <div
+                  class="absolute inset-0 rounded-full ring-4 ring-blue-400 opacity-0 group-hover:opacity-100 animate-pulse pointer-events-none"
+              ></div>
             </div>
+
           </div>
         </div>
 
@@ -42,9 +52,18 @@
             <div class="absolute inset-0 bg-blue-500 opacity-0 group-hover:opacity-40 transition-opacity duration-300 rounded-xl z-10"></div>
           </div>
           <div class="absolute bottom-4 right-4">
-            <div class="w-12 h-12 bg-gray-700 rounded-full flex items-center justify-center text-white text-2xl shadow-lg cursor-pointer transition-all duration-300 group-hover:bg-[#00A9B7] group-hover:text-white">
-              &#8599;
+            <div class="w-12 h-12 rounded-full overflow-hidden shadow-lg cursor-pointer transition-all duration-300 group-hover:bg-[#00A9B7]">
+              <img
+                  src="@/assets/Arrow.png"
+                  alt="Arrow Icon"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+              />
+              <!-- Blue glow animation -->
+              <div
+                  class="absolute inset-0 rounded-full ring-4 ring-blue-400 opacity-0 group-hover:opacity-100 animate-pulse pointer-events-none"
+              ></div>
             </div>
+
           </div>
         </div>
 
@@ -56,9 +75,18 @@
             <div class="absolute inset-0 bg-blue-500 opacity-0 group-hover:opacity-40 transition-opacity duration-300 rounded-xl z-10"></div>
           </div>
           <div class="absolute bottom-4 right-4">
-            <div class="w-14 h-14 bg-gray-700 rounded-full flex items-center justify-center text-white text-3xl shadow-lg cursor-pointer transition-all duration-300 group-hover:bg-[#00A9B7] group-hover:text-white">
-              &#8599;
+            <div class="w-12 h-12 rounded-full overflow-hidden shadow-lg cursor-pointer transition-all duration-300 group-hover:bg-[#00A9B7]">
+              <img
+                  src="@/assets/Arrow.png"
+                  alt="Arrow Icon"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+              />
+              <!-- Blue glow animation -->
+              <div
+                  class="absolute inset-0 rounded-full ring-4 ring-blue-400 opacity-0 group-hover:opacity-100 animate-pulse pointer-events-none"
+              ></div>
             </div>
+
           </div>
         </div>
       </div>

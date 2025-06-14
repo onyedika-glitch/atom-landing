@@ -1,6 +1,6 @@
 <template>
-  <div class="h-20"></div>
-  <section class="mx-auto w-[1380px] bg-white py-24 px-0 md:px-0">
+  <div class="h-30"></div>
+  <section class="mx-auto w-[1380px] px-[30px] bg-white pt-[80px] pb-[80px] gap-[10px]">
     <div class="text-center max-w-none w-full mx-0 mb-20">
 
       <h4 class="text-teal-600 text-lg font-normal mb-2">How We Work</h4>
@@ -17,20 +17,25 @@
 
       <!-- Left Column: Accordion (no margin or max-w) -->
       <div class="pl-6 pr-4 lg:pl-20 space-y-8">
+        <div class="h-10"></div>
         <div v-for="item in items" :key="item.title" class="pb-6 relative border-b">
           <details class="group text-left">
             <!-- Summary Row -->
             <summary class="flex items-center text-3xl font-light text-gray-400 cursor-pointer list-none relative">
               <span>{{ item.title }}</span>
               <!-- Arrow on far right -->
-              <span class="absolute right-0 text-2xl text-[#1D1B20] pointer-events-none">&#9654;</span>
-              <div class="h-10"></div>
-              <hr class="border-t-[2px] border-gray-300 my-4" />
-            </summary>
 
-            <!-- HR line directly under summary -->
-            <hr class="border-t-[2px] border-gray-300 my-4" />
-            <div class="h-10"></div>
+              <div class="w-[90%] ml-0 relative">
+  <span class="absolute right-0 top-0 pointer-events-none">
+    <img src="@/assets/Cursor.png" alt="Arrow" class="w-6 h-6" />
+  </span>
+
+                <div class="h-10"></div>
+                <hr class="border-t-[2px] border-gray-300 my-4" />
+                <hr class="border-t-[2px] border-gray-300 my-4" />
+              </div>
+            </summary>
+              <div class="h-10"></div>
             <!-- Content -->
             <div class="text-gray-600 text-lg space-y-6">
               <p>{{ item.description }}</p>
@@ -49,11 +54,11 @@
       </div>
 
       <!-- Right Column: Full-width Image -->
-      <div class="w-full flex justify-end">
+      <div class="w-[600px] flex justify-end px-[30px]">
         <img
             src="@/assets/Group.png"
             alt="Team Collaboration"
-            class="w-full h-auto object-cover rounded-none"
+            class="w-[600px] h-auto object-cover rounded-none"
         />
       </div>
     </div>

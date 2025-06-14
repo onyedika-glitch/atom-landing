@@ -5,10 +5,10 @@
       <h4 class="text-[#01B8C6] font-bold text-[24px] leading-[1.5] tracking-[0] font-['Space_Grotesk']">
         Services
       </h4>
-
+      <div class="h-5"></div>
       <div class="text-left font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">
         <h2 class="text-4xl font-extrabold text-gray-900 mt-2">What We DO</h2>
-
+        <div class="h-5"></div>
         <div class="text-left text-[#374151] font-[400] text-xl leading-[32px] tracking-[0.05em] font-sans space-y-4">
           <p>
             At ATOM, we deliver cutting-edge, enterprise-grade technology services designed to meet the evolving needs of modern businesses and institutions.
@@ -17,7 +17,7 @@
       </div>
     </div>
 
-
+    <div class="h-5"></div>
 
     <div class="overflow-x-auto">
       <div class="flex gap-6 w-max px-4 animate-slide">

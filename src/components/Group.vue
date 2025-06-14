@@ -1,4 +1,5 @@
 <template>
+  <div class="h-10"></div>
   <section class="relative w-full mx-auto w-[1380px] bg-white py-48 flex flex-col items-center overflow-hidden">
     <!-- Subtle grid background placeholder -->
     <div class="absolute inset-0 pointer-events-none select-none opacity-30 z-0">
