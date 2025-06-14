@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    @apply w-full mx-auto px-[30px] left-[2472px] right-[2472px]   overflow-x-hidden;
+    @apply w-full mx-auto px-[30px]   overflow-x-hidden;
 }
 
 
