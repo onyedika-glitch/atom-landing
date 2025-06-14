@@ -1,8 +1,7 @@
 <template>
   <div class="h-10"></div>
-  <section
-      class="relative bg-[#F2FDFF] mx-auto w-[1380px] h-[1132px] pt-[80px] pr-[30px] pb-[80px] pl-[30px] gap-[10px] rounded-[6rem] border-2 border-dashed flex flex-col items-center justify-center text-center"
-  >
+  <section class="relative w-full h-[1132px] px-[30] bg-[#F2FDFF]  pt-[80px] pr-[30px] pb-[80px] pl-[30px] gap-[10px] rounded-[6rem] border-2 border-dashed flex flex-col items-center justify-center text-center">
+
 
   <!-- Top-right animation -->
     <img

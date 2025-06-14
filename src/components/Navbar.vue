@@ -17,7 +17,7 @@
     </div>
 
     <!-- Navigation Text -->
-    <div class="absolute left-1/2 transform -translate-x-1/2 flex gap-6 items-center">
+    <div class="absolute left-1/2 transform -translate-x-1/2 flex gap-6 items-center text-center">
       <p>About Us</p>
       <p>Services</p>
       <p>Contact Us</p>

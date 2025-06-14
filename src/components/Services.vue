@@ -1,4 +1,5 @@
 <template>
+  <div class="h-20"></div>
   <section class="w-full min-h-screen mx-auto w-[1380px] bg-white px-4 py-16 flex flex-col items-center justify-center text-center">
     <div class="text-left mb-16 px-4">
       <h4 class="text-[#01B8C6] font-bold text-[24px] leading-[1.5] tracking-[0] font-['Space_Grotesk']">
@@ -15,6 +16,7 @@
         </div>
       </div>
     </div>
+
 
 
     <div class="overflow-x-auto">
