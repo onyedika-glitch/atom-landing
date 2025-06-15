@@ -2,7 +2,7 @@
 
   <div class="h-50"></div>
   <section
-      class="relative bg-[#181e23] mx-auto w-full h-[865px] px-[30px]
+      class="relative bg-[#181e23] mx-auto h-[865px] px-[30px]
        rounded-[6rem] border-2 border-dashed border-[#b0c4ce] min-h-[700px]  items-center justify-center text-center"
   >
     <div class="h-30"></div>

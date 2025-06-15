@@ -1,7 +1,7 @@
 <!-- About.vue -->
 <template>
   <section
-      class="relative w-full mx-auto w-[1380px] h-screen bg-white bg-[url('@/assets/grid-bg.svg')] bg-cover bg-center overflow-hidden
+      class="relative mx-auto h-screen bg-white bg-[url('@/assets/grid-bg.svg')] bg-cover bg-center overflow-hidden
       flex flex-col items-center justify-center text-center"
   >
 

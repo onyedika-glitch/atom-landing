@@ -1,12 +1,12 @@
 <template>
   <div class="h-30"></div>
-  <section class="mx-auto w-[1380px] px-[30px] bg-white pt-[80px] pb-[80px] gap-[10px]">
+  <section class="mx-auto px-[30px] bg-white pt-[80px] pb-[80px] gap-[10px]">
     <div class="text-center max-w-none w-full mx-0 mb-20">
 
       <h4 class="text-teal-600 text-lg font-normal mb-2">How We Work</h4>
       <div class="h-5"></div>
       <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[56px] px-6 md:px-20">
-        <h2 class="text-4xl md:text-6xl font-normal font-[300] text-gray-800 leading-tight">
+        <h2 class="text-4xl md:text-6xl font-normal text-gray-800 leading-tight">
           Collaboration is at the heart of <br /> everything we do.
         </h2>
       </div>

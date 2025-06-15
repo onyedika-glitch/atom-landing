@@ -1,6 +1,6 @@
 <template>
   <div class="h-10"></div>
-  <section class="relative w-full h-[1132px] px-[30px] bg-[#F2FDFF]  pt-[80px] pb-[80px] gap-[10px] rounded-[6rem] border-2 border-dashed flex flex-col items-center justify-center text-center">
+  <section class="relative h-[1132px] px-[30px] bg-[#F2FDFF]  sm:px-6 lg:px-8 rounded-[6rem] border-2 border-dashed flex flex-col items-center justify-center text-center">
 
 
   <!-- Top-right animation -->
