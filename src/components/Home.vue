@@ -2,7 +2,7 @@
   <div>
     <Hero />
     <About />
-    <Services />
+    <Service />
     <Footprint />
     <Products />
     <AI />
