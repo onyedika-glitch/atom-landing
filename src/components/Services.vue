@@ -61,8 +61,8 @@
 <script setup>
 import dataEngImg from '@/assets/Data-eng.png'
 import aiAutoImg from '@/assets/Ai-auto.png'
-import strategyImg from '@/assets/strategy.png'
-import softwareImg from '@/assets/software.png'
+import strategyImg from '@/assets/Strategy.png'
+import softwareImg from '@/assets/Software.png'
 
 const services = [
   {
