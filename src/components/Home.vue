@@ -16,7 +16,7 @@
 <script setup lang="ts">
 import Hero from '@/components/Hero.vue'
 import About from '@/components/About.vue'
-import Services from '@/components/Services.vue'
+import Service from '@/components/Service.vue'
 import Footprint from '@/components/Footprint.vue'
 import Products from '@/components/Products.vue'
 import AI from '@/components/AI.vue'
