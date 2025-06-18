@@ -9,7 +9,6 @@
     <Group />
     <How />
     <Contact />
-    <Footer/>
   </div>
 </template>
 
@@ -23,5 +22,4 @@ import AI from '@/components/AI.vue'
 import Group from '@/components/Group.vue'
 import How from '@/components/How.vue'
 import Contact from '@/components/Contact.vue'
-import Footer from "@/components/Footer.vue";
 </script>
