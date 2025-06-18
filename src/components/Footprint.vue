@@ -1,6 +1,6 @@
 <template>
   <div class="h-30"></div>
-  <section class="mx-auto bg-[#ffffff] py-200 px-4 flex items-center justify-center">
+  <section class=" bg-[#ffffff] py-200 px-4 flex items-center justify-center">
     <div class="h-10"></div>
     <div class="w-full max-w-5xl py-[200px] flex flex-col items-center text-center">
       <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">

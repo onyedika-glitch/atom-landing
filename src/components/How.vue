@@ -1,6 +1,6 @@
 <template>
   <div class="h-30"></div>
-  <section class="mx-auto px-[30px] bg-white pt-[80px] pb-[80px] gap-[10px]">
+  <section class=" px-[30px] bg-white pt-[80px] pb-[80px] gap-[10px]">
     <div class="text-center max-w-none w-full mx-0 mb-20">
 
       <h4 class="text-teal-600 text-lg font-normal mb-2">How We Work</h4>

@@ -1,6 +1,6 @@
 <template>
   <div class="h-10"></div>
-  <section class="relative mx-auto bg-white py-48 flex flex-col items-center overflow-hidden">
+  <section class="relative  bg-white py-48 flex flex-col items-center overflow-hidden">
     <!-- Subtle grid background placeholder -->
     <div class="absolute inset-0 pointer-events-none select-none opacity-30 z-0">
       <!-- Add SVG or pattern here if desired -->

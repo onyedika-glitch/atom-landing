@@ -17,18 +17,18 @@
     </div>
 
     <!-- Navigation Text -->
-    <div class="absolute left-1/2 transform -translate-x-1/2 flex gap-6 items-center text-center">
+    <div class="hidden">
       <p>About Us</p>
       <p>Services</p>
       <p>Contact Us</p>
     </div>
 
-    <!-- Router Links (Optional/Hidden or Use Only One Nav System) -->
-    <nav class="hidden">
+    <nav class="absolute left-1/2 transform -translate-x-1/2 flex gap-6 items-center text-center">
+
       <router-link to="/">Home</router-link>
       <router-link to="/about">About Us</router-link>
       <router-link to="/services">Services</router-link>
-      <router-link to="/contact">Contact Us</router-link>
+      <router-link to="/contact-us">Contact Us</router-link>
     </nav>
   </div>
 </template>

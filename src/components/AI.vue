@@ -1,6 +1,6 @@
 <template>
   <div class="h-20"></div>
-  <section class="relative mx-auto  bg-white py-16 px-6 md:px-16 overflow-hidden flex flex-col items-center justify-center">
+  <section class="relative  bg-white py-16 px-6 md:px-16 overflow-hidden flex flex-col items-center justify-center">
     <div class="h-10"></div>
     <!-- Centered, Bold Heading -->
     <div class="w-full text-center mb-24 px-4">

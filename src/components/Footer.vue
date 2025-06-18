@@ -1,6 +1,6 @@
 <template>
   <div class="h-20"></div>
-  <footer class="relative mx-auto bg-white pt-12 pb-6 px-4 md:px-12 border-t border-gray-100 overflow-hidden">
+  <footer class="relative  bg-white pt-12 pb-6 px-4 md:px-12 border-t border-gray-100 overflow-hidden">
     <!-- Top section with logo and horizontal links -->
     <div class="max-w-6xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20">
       <!-- Logo + Horizontal Navigation Links -->
