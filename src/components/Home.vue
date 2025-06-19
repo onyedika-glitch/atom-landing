@@ -21,5 +21,5 @@ import Products from '@/components/Products.vue'
 import AI from '@/components/AI.vue'
 import Group from '@/components/Group.vue'
 import How from '@/components/How.vue'
-import Contact from '@/components/Contact.vue'
+import Contact from '@/components/Contact.vue' 
 </script>

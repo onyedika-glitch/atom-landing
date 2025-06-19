@@ -139,6 +139,6 @@ const cards = [
 }
 
 .animate-spin-slow {
-  animation: spin-slow 20s linear infinite;
+  animation: spin-slow 10s linear infinite;
 }
 </style>

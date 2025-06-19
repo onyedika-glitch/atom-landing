@@ -30,9 +30,21 @@
         <!-- Text Content -->
           
         <div class="p-6 text-left space-y-4">
-          <h3 class="font-grotesk font-extrabold text-[40px] leading-[24px] tracking-[0em] text-[#000000]">
-            {{ service.title }}
-          </h3>
+          <h3
+  style="
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #000000;
+    border-radius: 8px;
+    padding: 8px 16px;
+    display: inline-block;
+  "
+>
+  {{ service.title }}
+</h3>
            <div class="h-3"></div>
            
 <ul class="list-disc pl-6 text-xl text-[#4D4D4D] font-[400] leading-[1.75rem] tracking-wider font-grotesk space-y-2">
@@ -44,12 +56,24 @@
 
            <div class="h-5"></div>
            <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">
-             <router-link
-              to="/contact"
-              class="flex items-center justify-center bg-[#1AA9B9] text-[#1AA9B9]  text-lg font-medium font-inter hover:transition"
-          >
-            Get Started
-          </router-link>
+            <router-link
+  to="/contact"
+  class="flex items-center justify-center rounded-xl"
+  style="
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #1AA9B9;
+    padding: 12px 0;
+    width: 100%;
+    min-height: 56px;
+  "
+>
+  Get Started
+</router-link>
         </div>
            </div>
         </div>

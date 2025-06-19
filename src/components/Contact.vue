@@ -2,11 +2,24 @@
   <div class="h-10"></div>
   <section class="relative  bg-white px-6 md:px-20 py-40 overflow-hidden">
     <!-- Huge Background Title -->
-    <div class="hidden lg:block absolute top-0 left-1/2 transform -translate-x-1/2 z-0 w-full overflow-hidden pointer-events-none">
-      <span class="block text-[#E1F6F8] font-bold text-[20vw] leading-none whitespace-nowrap select-none text-center">
-        Contact
-      </span>
-    </div>
+    <div class="block absolute top-0 left-1/2 transform -translate-x-1/2 z-0 w-full overflow-hidden pointer-events-none">
+       <span
+    class="block select-none"
+    style="
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+      font-size: 250px;
+      line-height: 220px;
+      letter-spacing: 0%;
+      text-align: center;
+      color: #E1F6F8;
+      width: 100vw;
+      white-space: nowrap;
+    "
+  >
+    Contact
+  </span>
+</div>
     <div class="h-80"></div>
     <!-- Actual Foreground Content -->
     <div class="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-32 max-w-7xl mx-auto">
@@ -96,11 +109,24 @@
   <!-- Send Button -->
   <div class="md:col-span-2 flex justify-end">
     <button
-      type="submit"
-      class="bg-[#00A9B7] hover:bg-[#0095a0] text-white px-10 py-3 rounded-md text-lg font-medium transition-colors"
-    >
-      Send
-    </button>
+  type="submit"
+  class="text-white text-lg font-medium transition-colors"
+  style="
+    width:167px;
+    height:44px;
+    gap:8px;
+    border-width:2px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:32px;
+    padding-right:32px;
+    border-radius:12px;
+    background:#1AA9B9;
+    border-color:#1AA9B9;
+  "
+>
+  Send
+</button>
   </div>
 </form>
     </div>

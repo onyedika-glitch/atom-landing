@@ -10,7 +10,18 @@
           <!-- Group logo and ATOM text tightly -->
           <div class="flex items-center gap-2">
             <img src="@/assets/Logo_Atom.png" alt="Atom Logo" class="w-15 h-15" />
-            <span class="font-extrabold font-Kufam text-2xl text-[#121921]">ATOM</span>
+<span
+  class="font-kufam font-extrabold font-Kufam text-2xl text-[#121921]"
+  style="
+    font-family: 'Kufam', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0%;
+  "
+>
+  ATOM
+</span>
           </div>
         </div>
       </div>

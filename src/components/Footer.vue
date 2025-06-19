@@ -8,7 +8,15 @@
         <div class="flex items-center gap-3">
           <span class="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center text-2xl font-bold text-[#1cb5e0]">&#9673;</span>
           <img src="@/assets/Logo_Atom.png" alt="Atom Logo" class="w-8 h-8" />
-          <span class="font-extrabold text-xl text-gray-800">ATOM</span>
+          <span class="font-kufam font-extrabold text-xl text-gray-800"
+           style="
+    font-family: 'Kufam', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0%;
+  "
+          >ATOM</span>
         </div>
         <nav class="flex flex-wrap gap-6 text-gray-700 text-base">
           <a href="/hero" class="hover:underline">Overview</a>
@@ -23,10 +31,10 @@
       <!-- Optional right section for future content -->
       <div></div>
     </div>
-
+ <div class="h-10"></div>
     <!-- Divider -->
     <hr class="border-gray-200 my-8" />
-
+ <div class="h-10"></div>
     <!-- Bottom Row -->
     <div class="max-w-6xl mx-auto w-full flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 gap-4">
       <!-- Left copyright -->
@@ -38,14 +46,32 @@
         <a href="/cookies" class="hover:underline">Cookies</a>
       </div>
     </div>
-    <div class="h-50"></div>
+    <div class="h-60"></div>
     <!-- Huge faded background text -->
     <!-- Only visible on large (lg) screens and up -->
-    <div class="hidden lg:flex absolute inset-0 justify-center items-end w-full h-full pointer-events-none z-0 overflow-hidden">
-  <span class="text-[#eaf6fa] font-extrabold text-[12vw] tracking-tight leading-none whitespace-nowrap">
-    ATOM GROUP
+   <div class="pointer-events-none z-0 overflow-hidden absolute left-0 bottom-0 w-full h-[223px] flex items-end">
+  <span
+    class="text-[#E5E5E5] font-extrabold text-[18vw] tracking-tight leading-none whitespace-nowrap animate-marquee"
+    style="will-change: transform;"
+  >
+    ATOM GROUP&nbsp;&nbsp;ATOM GROUP&nbsp;&nbsp;ATOM GROUP
   </span>
-    </div>
+</div>
 
   </footer>
 </template>
+<style>
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.animate-marquee {
+  display: inline-block;
+  min-width: 200vw;
+  animation: marquee 5s linear infinite;
+  }
+</style>

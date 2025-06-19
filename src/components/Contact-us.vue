@@ -15,11 +15,12 @@
         <p class="text-gray-600 mb-8 max-w-md">
           We help you bring deep technical expertise, strategic thinking, and creative problem-solving to every project.
         </p>
+         <div class="h-3"></div>
         <div class="flex items-start gap-3">
           <span class="text-xl mt-1">✉️</span>
           <div class="text-gray-800">
             <p class="font-bold">Get in Touch</p>
-            <p>atomgroup@gmail.com</p>
+            <p>atom.ai.grp@gmail.com</p>
           </div>
         </div>
       </div>
@@ -27,7 +28,7 @@
       <!-- RIGHT FORM CONTAINER -->
      <!-- RIGHT FORM CONTAINER -->
       <!-- RIGHT FORM CONTAINER -->
-<div class="bg-[#f2f2f2] rounded-2xl w-full flex justify-center py-12 shadow-md">
+<div class="bg-[#f2f2f2] rounded-2xl w-full h-[495px] flex justify-center py-12 shadow-md">
   <form 
    action="https://formsubmit.co/atom.ai.grp@gmail.com"
         method="POST"
@@ -49,9 +50,11 @@
         name="name"
         placeholder="Enter your full name"
         class="bg-[ #FFFFFF] w-full"
-        style="height:48px; border-radius:12px; padding:12px 24px; font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:500; line-height:24px;"
+        style="height:48px; border-radius:12px;background: #FFFFFF;
+ padding:12px 24px; font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:500; line-height:24px;"
       />
     </div>
+    <div class="h-3"></div>
     <div>
       <label
         class="block mb-2 text-black"
@@ -63,9 +66,11 @@
         name="email"
         placeholder="Enter your email address"
         class="bg-[ #FFFFFF] w-full"
-        style="height:48px; border-radius:12px; padding:12px 24px; font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:500; line-height:24px;"
+        style="height:48px; border-radius:12px;background: #FFFFFF;
+ padding:12px 24px; font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:500; line-height:24px;"
       />
     </div>
+     <div class="h-3"></div>
     <div>
       <label
         class="block mb-2 text-black"
@@ -77,15 +82,33 @@
         rows="4"
         placeholder="Enter your message to us"
         class="bg-white w-full resize-none"
-        style="height:143px; border-radius:12px; padding:12px 24px; font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:500; line-height:24px;"
+        style="height:143px; border-radius:12px;background: #FFFFFF;
+ padding:12px 24px; font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:500; line-height:24px;"
       ></textarea>
     </div>
-    <button
-      type="submit"
-      class="w-full"
-      style="background:#1C9DB3; color:#fff;width: 30%; height:56px; border-radius:30px; font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:500; line-height:10px; box-shadow:0 2px 8px 0 #00000014;">
-      Submit
-    </button>
+     <div class="h-5"></div>
+   <button
+  type="submit"
+  style="
+    width:167px;
+    height:60px;
+    border-width:2px;
+    padding-top:24px;
+    padding-bottom:24px;
+    padding-left:22px;
+    padding-right:22px;
+    border-radius:16px;
+    background:#1AA9B9;
+    color:#fff;
+    font-family:'Space Grotesk',sans-serif;
+    font-size:20px;
+    font-weight:500;
+    line-height:24px;
+    box-shadow:0 2px 8px 0 #00000014;
+  "
+>
+  Submit
+</button>
   </form>
 </div>
      </div>
