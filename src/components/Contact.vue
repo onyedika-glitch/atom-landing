@@ -25,101 +25,91 @@
       </div>
         </div>
       <!-- Right Side Form -->
-      <form @submit.prevent="submitForm" class="grid grid-cols-1 md:grid-cols-2 gap-10 w-full">
-        <!-- Name -->
-        <div>
-          <label class="block font-bold mb-2 text-base">Name</label>
-          <input
-              v-model="form.name"
-              type="text"
-              required
-              class="w-full border-none focus:outline-none text-base"
-          />
-          <hr class="border-t-2 border-gray-800 mt-1" />
-        </div>
+     
+      <form 
+  action="https://formsubmit.co/atom.ai.grp@gmail.com"
+  method="POST"
+  class="grid grid-cols-1 md:grid-cols-2 gap-10 w-full max-w-2xl mx-auto"
+>
+  <!-- Name -->
+  <div>
+    <label class="block font-bold mb-2 text-base">Name</label>
+    <input
+      type="text"
+      name="name"
+      required
+      class="w-full border-none focus:outline-none text-base"
+    />
+    <hr class="border-t-2 border-gray-800 mt-1" />
+  </div>
 
-        <!-- Company -->
-        <div>
-          <label class="block font-bold mb-2 text-base">Company</label>
-          <input
-              v-model="form.company"
-              type="text"
-              class="w-full border-none focus:outline-none text-base"
-          />
-          <hr class="border-t-2 border-gray-800 mt-1" />
-        </div>
+  <!-- Company -->
+  <div>
+    <label class="block font-bold mb-2 text-base">Company</label>
+    <input
+      type="text"
+      name="company"
+      class="w-full border-none focus:outline-none text-base"
+    />
+    <hr class="border-t-2 border-gray-800 mt-1" />
+  </div>
 
-        <!-- Email -->
-        <div>
-          <label class="block font-bold mb-2 text-base">Email</label>
-          <input
-              v-model="form.email"
-              type="email"
-              required
-              class="w-full border-none focus:outline-none text-base"
-          />
-          <hr class="border-t-2 border-gray-800 mt-1" />
-        </div>
+  <!-- Email -->
+  <div>
+    <label class="block font-bold mb-2 text-base">Email</label>
+    <input
+      type="email"
+      name="email"
+      required
+      class="w-full border-none focus:outline-none text-base"
+    />
+    <hr class="border-t-2 border-gray-800 mt-1" />
+  </div>
 
-        <!-- Phone -->
-        <div>
-          <label class="block font-bold mb-2 text-base">Phone</label>
-          <input
-              v-model="form.phone"
-              type="text"
-              class="w-full border-none focus:outline-none text-base"
-          />
-          <hr class="border-t-2 border-gray-800 mt-1" />
-        </div>
+  <!-- Phone -->
+  <div>
+    <label class="block font-bold mb-2 text-base">Phone</label>
+    <input
+      type="text"
+      name="phone"
+      class="w-full border-none focus:outline-none text-base"
+    />
+    <hr class="border-t-2 border-gray-800 mt-1" />
+  </div>
 
-        <!-- Message (Full Width) -->
-        <div class="md:col-span-2">
-          <label class="block font-bold mb-2 text-base">Write your message to us</label>
-          <textarea
-              v-model="form.message"
-              rows="4"
-              required
-              class="w-full border-none focus:outline-none resize-none text-base"
-          ></textarea>
-          <hr class="border-t-2 border-gray-800 mt-1" />
-        </div>
+  <!-- Message (Full Width) -->
+  <div class="md:col-span-2">
+    <label class="block font-bold mb-2 text-base">Write your message to us</label>
+    <textarea
+      name="message"
+      rows="4"
+      required
+      class="w-full border-none focus:outline-none resize-none text-base"
+    ></textarea>
+    <hr class="border-t-2 border-gray-800 mt-1" />
+  </div>
 
-        <!-- Send Button -->
-        <div class="md:col-span-2 flex justify-end">
-          <button
-              type="submit"
-              class="bg-[#00A9B7] hover:bg-[#0095a0] text-white px-10 py-3 rounded-md text-lg font-medium transition-colors"
-          >
-            Send
-          </button>
-        </div>
-      </form>
+  <!-- Hidden settings for FormSubmit -->
+  <input type="hidden" name="_captcha" value="false" />
+  <input type="hidden" name="_template" value="table" />
+
+  <!-- Send Button -->
+  <div class="md:col-span-2 flex justify-end">
+    <button
+      type="submit"
+      class="bg-[#00A9B7] hover:bg-[#0095a0] text-white px-10 py-3 rounded-md text-lg font-medium transition-colors"
+    >
+      Send
+    </button>
+  </div>
+</form>
     </div>
   </section>
 </template>
 
 
 <script setup>
-import { reactive } from 'vue'
 
-const form = reactive({
-  name: '',
-  company: '',
-  email: '',
-  phone: '',
-  message: ''
-})
-
-function submitForm() {
-  console.log('Form submitted:', form)
-  // Example: send form data to API
-  // await fetch('/api/contact', {
-  //   method: 'POST',
-  //   headers: { 'Content-Type': 'application/json' },
-  //   body: JSON.stringify(form)
-  // })
-  alert('Message sent!')
-}
 </script>
 
 <style scoped>
