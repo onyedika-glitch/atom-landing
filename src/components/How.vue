@@ -1,15 +1,15 @@
 <template>
   <div class="h-30"></div>
-  <section class=" px-[30px] bg-white pt-[80px] pb-[80px] gap-[10px]">
+ <section class="px-4 sm:px-8 md:px-16 bg-white pt-12 pb-12 gap-2">
     <div class="text-center max-w-none w-full mx-0 mb-20">
 
       <h4 class="text-teal-600 text-lg font-normal mb-2">How We Work</h4>
       <div class="h-5"></div>
-      <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[56px] px-6 md:px-20">
-        <h2 class="text-4xl md:text-6xl font-normal text-gray-800 leading-tight">
-          Collaboration is at the heart of <br /> everything we do.
-        </h2>
-      </div>
+      <div class="text-center font-figtree leading-tight tracking-[-0.02em] text-2xl sm:text-4xl md:text-5xl">
+  <h2 class="text-2xl sm:text-4xl md:text-6xl font-normal text-gray-800 leading-tight">
+    Collaboration is at the heart of <br /> everything we do.
+  </h2>
+</div>
         </div>
     <div class="h-10"></div>
     <!-- Full-width Grid -->
@@ -54,13 +54,13 @@
       </div>
 
       <!-- Right Column: Full-width Image -->
-      <div class="w-[600px] flex justify-end px-[30px]">
-        <img
-            src="@/assets/Group.png"
-            alt="Team Collaboration"
-            class="w-[600px] h-auto object-cover rounded-none"
-        />
-      </div>
+     <div class="w-full flex justify-end px-0 sm:px-4 md:px-8">
+  <img
+    src="@/assets/Group.png"
+    alt="Team Collaboration"
+    class="w-full max-w-[600px] h-auto object-cover rounded-none"
+  />
+</div>
     </div>
   </section>
 </template>

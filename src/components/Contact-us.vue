@@ -1,10 +1,10 @@
 <template>
   <div class="h-10"></div>
   <section class="bg-white px-6 md:px-20 py-20 max-w-7xl mx-auto">
-    <div class="grid md:grid-cols-2 gap-16 items-start">
+    <div class="grid md:grid-cols-2 gap-8 md:gap-16 items-start">
       <!-- LEFT CONTENT -->
       <div>
-        <div class="text-left font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">
+        <div class="text-left font-figtree leading-[72px] tracking-[-0.02em] text-[56px] mb-10 md:mb-0">
         <h3 class="text-[#1C9DB3] font-bold text-lg mb-4">Contact</h3>
         <div class="text-left font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">
         <h1 class="text-4xl md:text-5xl font-semibold text-gray-900 leading-tight mb-6">
@@ -28,7 +28,7 @@
       <!-- RIGHT FORM CONTAINER -->
      <!-- RIGHT FORM CONTAINER -->
       <!-- RIGHT FORM CONTAINER -->
-<div class="bg-[#f2f2f2] rounded-2xl w-full h-[495px] flex justify-center py-12 shadow-md">
+<div class="bg-[#f2f2f2] rounded-2xl w-full h-[495px] flex justify-center py-8 px-2 shadow-md">
   <form 
    action="https://formsubmit.co/atom.ai.grp@gmail.com"
         method="POST"
@@ -89,12 +89,12 @@
      <div class="h-5"></div>
    <button
   type="submit"
+   class="w-full md:w-[167px] text-white text-lg font-medium transition-colors"
   style="
-    width:167px;
-    height:60px;
+    height:48px;
     border-width:2px;
-    padding-top:24px;
-    padding-bottom:24px;
+    padding-top:16px;
+    padding-bottom:16px;
     padding-left:22px;
     padding-right:22px;
     border-radius:16px;

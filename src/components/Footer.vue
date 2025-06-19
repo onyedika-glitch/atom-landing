@@ -7,8 +7,8 @@
       <div class="flex flex-col gap-4">
         <div class="flex items-center gap-3">
           <span class="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center text-2xl font-bold text-[#1cb5e0]">&#9673;</span>
-          <img src="@/assets/Logo_Atom.png" alt="Atom Logo" class="w-8 h-8" />
-          <span class="font-kufam font-extrabold text-xl text-gray-800"
+          <img src="@/assets/Logo_Atom.png" alt="Atom Logo" class="w-8 h-8 shrink-0" />
+          <span class="font-kufam font-extrabold text-xl text-gray-800 shrink-0"
            style="
     font-family: 'Kufam', sans-serif;
     font-weight: 700;
@@ -18,7 +18,7 @@
   "
           >ATOM</span>
         </div>
-        <nav class="flex flex-wrap gap-6 text-gray-700 text-base">
+        <nav class="flex flex-wrap gap-3 sm:gap-6 text-gray-700 text-base">
           <a href="/hero" class="hover:underline">Overview</a>
           <a href="/products" class="hover:underline">Products</a>
           <a href="/services" class="hover:underline">Services</a>
@@ -40,7 +40,7 @@
       <!-- Left copyright -->
       <div>© 2025 Atom. All rights reserved.</div>
       <!-- Right legal links -->
-      <div class="flex gap-6">
+      <div class="flex gap-6 flex-wrap">
         <a href="/terms" class="hover:underline">Terms</a>
         <a href="/privacy" class="hover:underline">Privacy</a>
         <a href="/cookies" class="hover:underline">Cookies</a>
@@ -49,7 +49,7 @@
     <div class="h-60"></div>
     <!-- Huge faded background text -->
     <!-- Only visible on large (lg) screens and up -->
-   <div class="pointer-events-none z-0 overflow-hidden absolute left-0 bottom-0 w-full h-[223px] flex items-end">
+   <div class="pointer-events-none z-0 overflow-hidden absolute left-0 bottom-0 w-full h-[223px] flex items-end hidden lg:flex">
   <span
     class="text-[#E5E5E5] font-extrabold text-[18vw] tracking-tight leading-none whitespace-nowrap animate-marquee"
     style="will-change: transform;"

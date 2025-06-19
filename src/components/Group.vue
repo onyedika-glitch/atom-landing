@@ -5,7 +5,7 @@
     <div class="absolute inset-0 pointer-events-none select-none opacity-30 z-0">
       <!-- Add SVG or pattern here if desired -->
     </div>
-    <div class="relative z-10 max-w-7xl mx-auto w-full grid grid-cols-1 md:grid-cols-3 gap-16 items-center">
+    <div class="relative z-10 max-w-7xl mx-auto w-full grid grid-cols-1 md:grid-cols-3 gap-8 items-center px-4">
       <!-- Left column -->
       <div class="flex flex-col gap-8">
         <div class="bg-white rounded-xl shadow p-5 flex flex-col gap-2">
@@ -27,11 +27,11 @@
       <!-- Center column -->
       <div class="flex flex-col items-center justify-center">
         <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">
-        <div class="bg-white rounded-xl h-80 w-full mb-10 flex items-center justify-center overflow-hidden">
+        <div class="bg-white rounded-xl h-48 sm:h-64 md:h-80 w-full mb-10 flex items-center justify-center overflow-hidden">
           <img src="@/assets/Ai.png" alt="Handyman Product" class="object-cover w-full h-full" />
         </div>
         <div class="text-center">
-          <h2 class="text-4xl md:text-5xl font-figtree leading-[72px] tracking-[-0.02em] text-[56px] font-extrabold uppercase text-gray-800 mb-4">Atom Group</h2>
+          <h2 class="text-2xl sm:text-4xl md:text-5xl font-figtree leading-[72px] tracking-[-0.02em] text-[56px] font-extrabold uppercase text-gray-800 mb-4">Atom Group</h2>
           <div class="h-5"></div>
           <p class="text-gray-500 text-xl">At Atom, we are not just building products, we're reshaping industries.</p>
         </div>

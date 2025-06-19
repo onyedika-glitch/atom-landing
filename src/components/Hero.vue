@@ -1,19 +1,19 @@
 <template>
   <div class="h-10"></div>
-  <section class="relative h-[1132px] px-[30px] bg-[#F2FDFF]  pt-[80px] pb-[80px] gap-[10px] rounded-[6rem] border-2 border-dashed flex flex-col items-center justify-center text-center">
+  <section class="relative  min-h-[600px] md:min-h-[900px] lg:min-h-[1132px] px-4 sm:px-8 md:px-16 bg-[#F2FDFF] pt-12 md:pt-20 pb-12 md:pb-20 gap-4 rounded-3xl md:rounded-[6rem] border-2 border-dashed flex flex-col items-center justify-center text-center">
 
 
   <!-- Top-right animation -->
     <img
         src="@/assets/Cube.png"
         alt="Animated graphic"
-        class="animated-cube absolute top-10 right-10 w-56 h-56 opacity-30 pointer-events-none"
+        class="animated-cube absolute top-4 right-4 w-24 h-24 md:top-10 md:right-10 md:w-56 md:h-56 opacity-30 pointer-events-none"
     />
 
     <div class="text-center max-w-3xl mx-auto">
       <!-- Heading -->
       <div class="h-5"></div>
-      <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">
+      <div class="text-center font-figtree leading-tight tracking-[-0.02em] text-2xl sm:text-4xl md:text-6xl">
         <h1>
           <span class="font-normal text-gray-800">From</span>
           <span class="font-bold text-[#01B8C6]"> Bold Ideas </span>
@@ -40,14 +40,14 @@
         <div class="flex gap-6 ">
           <router-link
               to="/products"
-              class="w-[200px] h-[60px] flex items-center justify-center rounded-[12px] bg-white text-gray-800 text-lg font-medium font-inter shadow hover:bg-gray-100 transition"
+              class="w-full sm:w-[200px] h-[48px] sm:h-[60px] flex items-center justify-center rounded-[12px] bg-white text-gray-800 text-lg font-medium font-inter shadow hover:bg-gray-100 transition"
           >
             See Our Work
           </router-link>
 
           <router-link
               to="/contact"
-              class="w-[200px] h-[60px] flex items-center justify-center rounded-[12px] bg-[#01B8C6] text-white text-lg font-medium font-inter hover:bg-[#00a9b6] transition"
+              class="w-full sm:w-[200px] h-[48px] sm:h-[60px] flex items-center justify-center rounded-[12px] bg-[#01B8C6] text-white text-lg font-medium font-inter hover:bg-[#00a9b6] transition"
           >
             Let’s Talk
           </router-link>
@@ -58,7 +58,7 @@
     <div class="h-10"></div>
 
     <!-- Hero Image -->
-    <div class="mt-16 mx-auto max-w-5xl px-4">
+    <div class="w-full mt-8 sm:mt-16 mx-auto max-w-5xl px-4">
       <img
           src="@/assets/ai-team.jpg"
           alt="AI team"
@@ -81,3 +81,6 @@ onMounted(() => {
   })
 })
 </script>
+<style>
+
+</style>

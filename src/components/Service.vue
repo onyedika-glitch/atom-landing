@@ -19,13 +19,13 @@
 
     <div class="h-5"></div>
 
-    <div class="overflow-x-auto">
+    <div class="overflow-x-hidden snap-x snap-mandatory">
       <div class="flex gap-6 w-max px-4 animate-slide">
         <div
-            v-for="(card, index) in services"
-            :key="index"
-            class="group relative w-[20rem] h-[25rem] rounded-[3rem] p-6 overflow-hidden text-white cursor-pointer transition-all duration-500"
-            :class="card.bg"
+          v-for="(card, index) in services"
+          :key="index"
+          class="group relative w-full max-w-xs sm:max-w-sm md:w-[20rem] md:h-[25rem] rounded-[3rem] p-6 overflow-hidden text-white cursor-pointer transition-all duration-500"
+          :class="card.bg"
         >
 
           <!-- Front Content -->
@@ -38,10 +38,7 @@
             <div>
               <div class="h-10"></div>
               <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[40px]">
-              <h3
-                  class="text-left font-figtree font-[300] text-[40px] leading-[1.25] tracking-[-0.02em] text-white mb-2"
-                  v-html="card.title"
-              />
+              <h3 class="text-left font-figtree font-[300] text-2xl sm:text-3xl md:text-[40px] leading-[1.25] tracking-[-0.02em] text-white mb-2" v-html="card.title" />
 </div>
 
 
@@ -92,8 +89,8 @@
               <div class="mt-16 flex flex-col items-center space-y-2">
                 <!-- GET STARTED Button -->
                 <router-link
-                    to="/contact"
-                    class="w-[180px] h-[60px] flex items-center justify-center rounded-[12px] bg-white/60 text-[#414651] text-lg font-semibold tracking-wide font-body"
+                  to="/contact"
+                  class="w-full max-w-[180px] h-[48px] sm:h-[60px] flex items-center justify-center rounded-[12px] bg-white/60 text-[#414651] text-lg font-semibold tracking-wide font-body"
                 >
                   GET STARTED
                 </router-link>

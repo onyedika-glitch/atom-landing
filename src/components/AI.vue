@@ -12,11 +12,11 @@
     </div>
     <div class="h-10"></div>
     <!-- Absolute Left-Aligned Atom -->
-    <div class="absolute left-8 top-8 z-10">
+    <div class="absolute left-2 top-2 md:left-8 md:top-8 z-10">
       <img
-          src="@/assets/animated-atom.png"
-          alt="AI Illustration"
-          class="w-[200px] md:w-[200px] animate-spin-slow"
+        src="@/assets/animated-atom.png"
+        alt="AI Illustration"
+        class="w-[120px] md:w-[200px] animate-spin-slow"
       />
     </div>
     <div class="h-10"></div>

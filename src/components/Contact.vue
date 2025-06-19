@@ -1,6 +1,6 @@
 <template>
   <div class="h-10"></div>
-  <section class="relative  bg-white px-6 md:px-20 py-40 overflow-hidden">
+  <section class="relative  bg-white px-6 md:px-20 py-40 overflow-hidden px-4">
     <!-- Huge Background Title -->
     <div class="block absolute top-0 left-1/2 transform -translate-x-1/2 z-0 w-full overflow-hidden pointer-events-none">
        <span
@@ -22,7 +22,7 @@
 </div>
     <div class="h-80"></div>
     <!-- Actual Foreground Content -->
-    <div class="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-32 max-w-7xl mx-auto">
+    <div class="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-32 max-w-7xl mx-auto">
       <!-- Left Side -->
       <div class="flex flex-col justify-between">
         <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">
@@ -42,7 +42,7 @@
       <form 
   action="https://formsubmit.co/atom.ai.grp@gmail.com"
   method="POST"
-  class="grid grid-cols-1 md:grid-cols-2 gap-10 w-full max-w-2xl mx-auto"
+  class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 w-full max-w-2xl mx-auto px-4"
 >
   <!-- Name -->
   <div>
@@ -110,9 +110,8 @@
   <div class="md:col-span-2 flex justify-end">
     <button
   type="submit"
-  class="text-white text-lg font-medium transition-colors"
+  class="w-full md:w-[167px] text-white text-lg font-medium transition-colors"
   style="
-    width:167px;
     height:44px;
     gap:8px;
     border-width:2px;

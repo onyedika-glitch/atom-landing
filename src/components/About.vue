@@ -7,10 +7,10 @@
 
     <!-- Centered Text Content -->
     <div class="h-10"></div>
-    <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">
-      <h2 class="text-8xl font-extrabold text-gray-900 mb-4">Who are We?</h2>
+    <div class="text-center font-figtree leading-tight tracking-[-0.02em] text-2xl sm:text-4xl md:text-5xl">
+      <h2 class="text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-extrabold text-gray-900 mb-4">Who are We?</h2>
       <div class="h-10"></div>
-      <div class="text-center text-[#374151] font-[400] text-xl leading-[32px] tracking-[0.05em] font-sans max-w-5xl mx-auto space-y-4">
+      <div class="text-center text-[#374151] font-[400] text-base sm:text-xl leading-[28px] sm:leading-[32px] tracking-[0.05em] font-sans max-w-5xl w-full mx-auto space-y-4 px-4">
         <p>At ATOM, we are builders of intelligent, future-ready solutions.</p>
         <div class="h-10"></div>
         <p>
@@ -21,7 +21,7 @@
     </div>
     <div class="h-50"></div>
     <!-- Rotating Atom Icon -->
-    <div class="absolute bottom-1 right-10 w-40 h-40 opacity-90">
+    <div class="absolute bottom-2 right-2 w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 opacity-90">
       <img
           src="@/assets/animated-atom.png"
           alt="AI Icon"
