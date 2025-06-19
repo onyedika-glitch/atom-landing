@@ -1,5 +1,5 @@
 <template>
-  <div class="h-30"></div>
+  <div class="h-40"></div>
   <section class="bg-[#ffffff] py-12 sm:py-24 px-4 flex items-center justify-center px-4">
     <div class="h-10"></div>
       <div class="w-full max-w-5xl py-8 sm:py-16 flex flex-col items-center text-center">

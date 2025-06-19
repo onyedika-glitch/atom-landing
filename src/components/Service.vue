@@ -25,7 +25,7 @@
         <div
           v-for="(card, index) in services"
           :key="index"
-          class="group relative min-w-[80vw] max-w-xs sm:min-w-[340px] sm:max-w-sm md:w-[20rem] md:h-[25rem] rounded-[3rem] p-6 overflow-hidden text-white cursor-pointer transition-all duration-500 snap-center"
+          class="group relative min-w-[80vw] max-w-xs sm:min-w-[340px] sm:max-w-sm h-80 md:w-[20rem] md:h-[25rem] rounded-[3rem] p-6 overflow-hidden text-white cursor-pointer transition-all duration-500 snap-center"
           :class="card.bg"
         >
           <!-- Front Content -->
