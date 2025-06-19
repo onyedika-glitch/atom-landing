@@ -2,7 +2,7 @@
   <div class="h-10"></div>
   <section class="relative  bg-white px-6 md:px-20 py-40 overflow-hidden px-4">
     <!-- Huge Background Title -->
-    <div class="block absolute top-0 left-1/2 transform -translate-x-1/2 z-0 w-full overflow-hidden pointer-events-none">
+    <div class="hidden md:block absolute top-0 left-1/2 transform -translate-x-1/2 z-0 w-full overflow-hidden pointer-events-none">
        <span
     class="block select-none"
     style="

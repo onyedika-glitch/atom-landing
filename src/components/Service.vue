@@ -1,6 +1,6 @@
 <template>
   <div class="h-20"></div>
-  <section class=" bg-white px-4 py-16 flex flex-col items-center justify-center text-center">
+  <section class="bg-white px-4 py-16 flex flex-col items-center justify-center text-center">
     <div class="text-left mb-16 px-4">
       <h4 class="text-[#01B8C6] font-bold text-[24px] leading-[1.5] tracking-[0] font-['Space_Grotesk']">
         Services
@@ -19,45 +19,37 @@
 
     <div class="h-5"></div>
 
-    <div class="overflow-x-hidden snap-x snap-mandatory">
-      <div class="flex gap-6 w-max px-4 animate-slide">
+    <!-- Horizontally scrollable cards on mobile -->
+    <div class="overflow-x-auto snap-x snap-mandatory w-full">
+      <div class="flex flex-row gap-6 w-max px-4">
         <div
           v-for="(card, index) in services"
           :key="index"
-          class="group relative w-full max-w-xs sm:max-w-sm md:w-[20rem] md:h-[25rem] rounded-[3rem] p-6 overflow-hidden text-white cursor-pointer transition-all duration-500"
+          class="group relative min-w-[80vw] max-w-xs sm:min-w-[340px] sm:max-w-sm md:w-[20rem] md:h-[25rem] rounded-[3rem] p-6 overflow-hidden text-white cursor-pointer transition-all duration-500 snap-center"
           :class="card.bg"
         >
-
           <!-- Front Content -->
           <div class="absolute inset-0 flex flex-col justify-between p-6 transition-opacity duration-500 group-hover:opacity-0">
-
             <!-- Icon top-right -->
             <img :src="card.icon" alt="service icon" class="absolute top-6 right-6 w-10 h-10" />
-
             <!-- Title and Description -->
             <div>
               <div class="h-10"></div>
               <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[40px]">
-              <h3 class="text-left font-figtree font-[300] text-2xl sm:text-3xl md:text-[40px] leading-[1.25] tracking-[-0.02em] text-white mb-2" v-html="card.title" />
-</div>
-
-
+                <h3 class="text-left font-figtree font-[300] text-2xl sm:text-3xl md:text-[40px] leading-[1.25] tracking-[-0.02em] text-white mb-2" v-html="card.title" />
+              </div>
               <div class="h-5"></div>
               <p
-                  class="text-left font-figtree font-normal text-[16px] leading-[1.5] tracking-tight text-white mb-4 max-w-[260px] break-words line-clamp-4"
+                class="text-left font-figtree font-normal text-[16px] leading-[1.5] tracking-tight text-white mb-4 max-w-[260px] break-words line-clamp-4"
               >
                 {{ card.description }}
               </p>
-
             </div>
-
             <!-- ATOM Label -->
             <p class="text-white font-bold uppercase text-sm mt-4">
               ATOM
             </p>
           </div>
-
-
 
           <!-- Back Content (fade in on hover) -->
           <div class="absolute inset-0 flex flex-col justify-between p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10">
@@ -65,25 +57,24 @@
             <div>
               <div class="h-10"></div>
               <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[40px]">
-              <h3 class="text-4xl font-bold mb-6">Services</h3>
-              <div class="h-10"></div>
-              <!-- Service List with Custom SVG Bullets -->
+                <h3 class="text-4xl font-bold mb-6">Services</h3>
+                <div class="h-10"></div>
+                <!-- Service List with Custom SVG Bullets -->
                 <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[40px]">
-              <ul class="flex flex-col gap-6 text-left  font-figtree leading-[72px] tracking-[-0.02em] text-[40px]">
-
-                <li v-for="(item, idx) in card.backContent" :key="idx" class="flex items-start gap-4">
-                  <!-- Custom SVG icon -->
-                  <span class="min-w-[24px] min-h-[24px]">
-          <svg viewBox="0 0 24 24" class="w-6 h-6 text-white" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="12" cy="12" r="9" stroke="white" stroke-width="2"/>
-            <circle cx="12" cy="12" r="4" fill="white"/>
-          </svg>
-        </span>
-                  <span class="text-white text-base leading-snug">{{ item }}</span>
-                </li>
-              </ul>
-            </div>
+                  <ul class="flex flex-col gap-6 text-left font-figtree leading-[72px] tracking-[-0.02em] text-[40px]">
+                    <li v-for="(item, idx) in card.backContent" :key="idx" class="flex items-start gap-4">
+                      <!-- Custom SVG icon -->
+                      <span class="min-w-[24px] min-h-[24px]">
+                        <svg viewBox="0 0 24 24" class="w-6 h-6 text-white" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="12" cy="12" r="9" stroke="white" stroke-width="2"/>
+                          <circle cx="12" cy="12" r="4" fill="white"/>
+                        </svg>
+                      </span>
+                      <span class="text-white text-base leading-snug">{{ item }}</span>
+                    </li>
+                  </ul>
                 </div>
+              </div>
               <div class="h-5"></div>
               <!-- Bottom CTA Section -->
               <div class="mt-16 flex flex-col items-center space-y-2">
@@ -94,18 +85,16 @@
                 >
                   GET STARTED
                 </router-link>
-
                 <!-- ATOM Text -->
                 <p class="text-sm font-extrabold uppercase text-white tracking-wide">
                   ATOM
                 </p>
               </div>
-</div>
             </div>
-
-              <!-- Animated Cube SVG -->
-          <div class="absolute top-6 right-6 z-0 w-36 h-36 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-            <img src="@/assets/Cube.png" alt="Cube" class="w-full h-full animated-cube" />
+            <!-- Animated Cube SVG -->
+            <div class="absolute top-6 right-6 z-0 w-36 h-36 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+              <img src="@/assets/Cube.png" alt="Cube" class="w-full h-full animated-cube" />
+            </div>
           </div>
         </div>
       </div>
@@ -121,7 +110,6 @@ import iconData from '@/assets/service Icons-2.svg'
 import iconSoftware from '@/assets/service Icons.svg'
 import iconConsulting from '@/assets/service Icons-3.svg'
 import iconAutomation from '@/assets/service Icons-4.svg'
-
 
 const services = ref([
   {

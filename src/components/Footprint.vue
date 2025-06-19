@@ -18,8 +18,7 @@
       <div class="h-10"></div>
       <!-- Space before stats -->
         <!-- Big Container -->
-      <section class="w-full max-w-5xl h-[240px] gap-16 rounded-2xl p-28 bg-gray-100 mx-auto flex items-center justify-between px-4">
-        <!-- your content here -->
+      <section class="w-full max-w-5xl h-[240px] gap-16 rounded-2xl p-28 bg-gray-100 mx-auto flex flex-col sm:flex-row items-center justify-between px-4">
 
       <div class="text-center flex-1">
             <div class="text-[#1AA9B9] text-4xl sm:text-5xl font-extrabold">1000+</div>
