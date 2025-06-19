@@ -14,7 +14,6 @@ import Footer from "@/components/Footer.vue";
 <style>
 html, body {
   margin: 0;
-  padding: 30px;
   width: 100%;
   overflow-x: hidden;
 }
