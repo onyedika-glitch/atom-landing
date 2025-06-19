@@ -25,48 +25,69 @@
       </div>
 
       <!-- RIGHT FORM CONTAINER -->
-      <div class="bg-[#f2f2f2] p-8 md:p-10 rounded-2xl w-full shadow-md">
-       
-               <!-- Right Form -->
-      <form class="bg-gray-100 rounded-2xl p-0 sm:p-0 md:p-0 space-y-6 shadow-sm w-full">
-        <div>
-          <label class="block text-base font-semibold text-gray-800 mb-2">Your Name</label>
-          <div class="bg-white rounded-xl">
-            <input
-              type="text"
-              placeholder="Enter your full name"
-              class="w-full p-4 text-gray-700 border-none rounded-xl focus:outline-none focus:ring-2 focus:ring-[#1C9DB3] text-base"
-            />
-          </div>
-        </div>
-        <div>
-          <label class="block text-base font-semibold text-gray-800 mb-2">Your Email</label>
-          <div class="bg-white rounded-xl">
-            <input
-              type="email"
-              placeholder="Enter your email address"
-              class="w-full p-4 text-gray-700 border-none rounded-xl focus:outline-none focus:ring-2 focus:ring-[#1C9DB3] text-base"
-            />
-          </div>
-        </div>
-        <div>
-          <label class="block text-base font-semibold text-gray-800 mb-2">Your Message</label>
-          <div class="bg-white rounded-xl">
-            <textarea
-              rows="4"
-              placeholder="Enter your message to us"
-              class="w-full p-4 text-gray-700 border-none rounded-xl focus:outline-none focus:ring-2 focus:ring-[#1C9DB3] text-base resize-none"
-            ></textarea>
-          </div>
-        </div>
-        <button
-          type="submit"
-          class="block w-full bg-cyan-600 hover:bg-cyan-700 text-white py-3 rounded-xl font-semibold shadow transition-all duration-300"
-        >
-          Submit
-        </button>
-      </form>
-      </div>
+     <!-- RIGHT FORM CONTAINER -->
+      <!-- RIGHT FORM CONTAINER -->
+<div class="bg-[#f2f2f2] rounded-2xl w-full flex justify-center py-12 shadow-md">
+  <form 
+   action="https://formsubmit.co/atom.ai.grp@gmail.com"
+        method="POST"
+  class="w-full max-w-[489px] h-[450px] space-y-8">
+          <!-- Hidden settings -->
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_template" value="table" />
+
+  
+     <div class="h-10"></div>
+    <div>
+      <label
+        class="block mb-2 text-black"
+        style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 20px; line-height: 24px; letter-spacing: 0%;">
+        Your Name
+      </label>
+      <input
+        type="text"
+        name="name"
+        placeholder="Enter your full name"
+        class="bg-[ #FFFFFF] w-full"
+        style="height:48px; border-radius:12px; padding:12px 24px; font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:500; line-height:24px;"
+      />
     </div>
+    <div>
+      <label
+        class="block mb-2 text-black"
+        style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 20px; line-height: 24px; letter-spacing: 0%;">
+        Your Email
+      </label>
+      <input
+        type="email"
+        name="email"
+        placeholder="Enter your email address"
+        class="bg-[ #FFFFFF] w-full"
+        style="height:48px; border-radius:12px; padding:12px 24px; font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:500; line-height:24px;"
+      />
+    </div>
+    <div>
+      <label
+        class="block mb-2 text-black"
+        style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 20px; line-height: 24px; letter-spacing: 0%;">
+        Your Message
+      </label>
+      <textarea
+      name="message"
+        rows="4"
+        placeholder="Enter your message to us"
+        class="bg-white w-full resize-none"
+        style="height:143px; border-radius:12px; padding:12px 24px; font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:500; line-height:24px;"
+      ></textarea>
+    </div>
+    <button
+      type="submit"
+      class="w-full"
+      style="background:#1C9DB3; color:#fff;width: 30%; height:56px; border-radius:30px; font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:500; line-height:10px; box-shadow:0 2px 8px 0 #00000014;">
+      Submit
+    </button>
+  </form>
+</div>
+     </div>
   </section>
 </template>
