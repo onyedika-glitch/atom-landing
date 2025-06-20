@@ -6,7 +6,7 @@ import Services from '../components/Services.vue';
 import ContactUs from '../components/Contact-us.vue';
 import Products from '@/components/Products.vue'
 import Contact from '@/components/Contact.vue'
-
+import Hero from '@/components/Hero.vue'
 
 const routes = [
     { path: '/', name: 'Home', component: Home },
@@ -15,6 +15,7 @@ const routes = [
     { path: '/contact-us', name: 'Contact-us', component: ContactUs },
     { path: '/products', component: Products },
     { path: '/contact', component: Contact },
+    { path: '/hero', component: Hero}
 ];
 
 const router = createRouter({
