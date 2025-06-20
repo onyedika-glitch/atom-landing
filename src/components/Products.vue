@@ -20,7 +20,7 @@
       <div class="h-8"></div>
 
       <!-- Responsive horizontal scroll on mobile, grid on desktop -->
-      <div class="flex md:grid md:grid-cols-3 gap-6 overflow-x-auto md:overflow-x-visible w-full pb-4 snap-x snap-mandatory">
+      <div class="flex flex-col md:grid md:grid-cols-3 gap-6 w-full pb-4">
         <!-- Product 1 -->
         <div class="bg-[#23282f] rounded-2xl p-4 flex-shrink-0 min-w-[90vw] md:min-w-0 md:w-auto flex flex-col relative snap-center">
           <div class="text-white text-2xl font-semibold mb-4">Handyman</div>
