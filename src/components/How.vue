@@ -44,7 +44,8 @@
                 <router-link
                     to="/contact"
                     class="w-[200px] h-[60px] flex items-center justify-center rounded-[12px] bg-white text-[#1AA9B9] text-lg font-medium font-inter shadow transition"
-                >
+                
+                style="font-family: var(--font-family-body, 'Inter', sans-serif); font-weight:600; font-size:1rem; line-height:1.5rem; letter-spacing:0%; color:#1AA9B9;">
                   GET STARTED
                 </router-link>
               </div>
