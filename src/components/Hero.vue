@@ -7,7 +7,7 @@
     <img
         src="@/assets/Cube.png"
         alt="Animated graphic"
-        class="animated-cube absolute top-4 right-4 w-24 h-24 md:top-10 md:right-10 md:w-56 md:h-56 opacity-30 pointer-events-none"
+        class="animated-cube absolute top-4 right-4 w-24 h-24 md:top-10 md:right-10 md:w-56 md:h-56 opacity-3000 z-0 pointer-events-none"
     />
 
     <div class="text-center max-w-3xl mx-auto">
@@ -76,7 +76,7 @@ onMounted(() => {
   gsap.to('.animated-cube', {
     rotate: 360,
     repeat: -1,
-    duration: 10,
+    duration: 8,
     ease: 'linear'
   })
 })

@@ -1,13 +1,15 @@
 <template>
-  <div class="h-20"></div>
+   <div class="h-20"></div>
+  <hr class="border-gray-200 my-8 opacity-15" />
+  <div class="h-15"></div>
   <footer class="relative  bg-white pt-12 pb-6 px-4 md:px-12 border-t border-gray-100 overflow-hidden">
     <!-- Top section with logo and horizontal links -->
     <div class="max-w-6xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20">
       <!-- Logo + Horizontal Navigation Links -->
       <div class="flex flex-col gap-4">
         <div class="flex items-center gap-3">
-          <span class="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center text-2xl font-bold text-[#1cb5e0]">&#9673;</span>
-          <img src="@/assets/Logo_Atom.png" alt="Atom Logo" class="w-8 h-8 shrink-0" />
+          <span class="w-10 h-10   flex items-center justify-center text-2xl font-bold text-[#1cb5e0]"></span>
+          <img src="@/assets/Logo_Atom.png" alt="Atom Logo" class="w-12 h-12 shrink-0" />
           <span class="font-kufam font-extrabold text-xl text-gray-800 shrink-0"
            style="
     font-family: 'Kufam', sans-serif;
@@ -18,7 +20,10 @@
   "
           >ATOM</span>
         </div>
-        <nav class="flex flex-wrap gap-3 sm:gap-6 text-gray-700 text-base">
+         <div class="h-2"></div>
+        
+      
+        <nav class="flex flex-wrap gap-5 sm:gap-8 text-gray-700 text-base">
           <a href="/hero" class="hover:underline">Overview</a>
           <a href="/products" class="hover:underline">Products</a>
           <a href="/services" class="hover:underline">Services</a>
@@ -27,13 +32,12 @@
           <a href="/privacy" class="hover:underline">Privacy</a>
         </nav>
       </div>
-
       <!-- Optional right section for future content -->
       <div></div>
     </div>
  <div class="h-10"></div>
     <!-- Divider -->
-    <hr class="border-gray-200 my-8" />
+    <hr class="border-gray-200 my-8 opacity-15" />
  <div class="h-10"></div>
     <!-- Bottom Row -->
     <div class="max-w-6xl mx-auto w-full flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 gap-4">
@@ -46,7 +50,7 @@
         <a href="/cookies" class="hover:underline">Cookies</a>
       </div>
     </div>
-    <div class="h-60"></div>
+    <div class="h-80"></div>
     <!-- Huge faded background text -->
     <!-- Only visible on large (lg) screens and up -->
    <div class="pointer-events-none z-0 overflow-hidden absolute left-0 bottom-0 w-full h-[223px] flex items-end hidden lg:flex">

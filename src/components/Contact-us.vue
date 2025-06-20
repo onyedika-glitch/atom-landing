@@ -6,16 +6,18 @@
       <div>
         <div class="text-left font-figtree leading-[72px] tracking-[-0.02em] text-[56px] mb-10 md:mb-0">
         <h3 class="text-[#1C9DB3] font-bold text-lg mb-4">Contact</h3>
+        <div class="h-5"></div>
         <div class="text-left font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">
-        <h1 class="text-4xl md:text-5xl font-semibold text-gray-900 leading-tight mb-6">
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
           We’d Love to Hear<br />From You
         </h1>
         </div>
         </div>
+        <div class="h-10"></div>
         <p class="text-gray-600 mb-8 max-w-md">
           We help you bring deep technical expertise, strategic thinking, and creative problem-solving to every project.
         </p>
-         <div class="h-3"></div>
+         <div class="h-6"></div>
         <div class="flex items-start gap-3">
           <span class="text-xl mt-1">✉️</span>
           <div class="text-gray-800">
@@ -45,6 +47,7 @@
         style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 20px; line-height: 24px; letter-spacing: 0%;">
         Your Name
       </label>
+      <div class="h-3"></div>
       <input
         type="text"
         name="name"
@@ -61,6 +64,7 @@
         style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 20px; line-height: 24px; letter-spacing: 0%;">
         Your Email
       </label>
+      <div class="h-3"></div>
       <input
         type="email"
         name="email"
@@ -77,6 +81,7 @@
         style="font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 20px; line-height: 24px; letter-spacing: 0%;">
         Your Message
       </label>
+      <div class="h-3"></div>
       <textarea
       name="message"
         rows="4"

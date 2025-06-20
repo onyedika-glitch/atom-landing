@@ -46,7 +46,7 @@
 >
   <!-- Name -->
   <div>
-    <label class="block font-bold mb-2 text-base">Name</label>
+    <label class="block font-normal mb-2 text-base">Name</label>
     <input
       type="text"
       name="name"
@@ -58,7 +58,7 @@
 
   <!-- Company -->
   <div>
-    <label class="block font-bold mb-2 text-base">Company</label>
+    <label class="block font-normal mb-2 text-base">Company</label>
     <input
       type="text"
       name="company"
@@ -69,7 +69,7 @@
 
   <!-- Email -->
   <div>
-    <label class="block font-bold mb-2 text-base">Email</label>
+    <label class="block font-normal mb-2 text-base">Email</label>
     <input
       type="email"
       name="email"
@@ -81,7 +81,7 @@
 
   <!-- Phone -->
   <div>
-    <label class="block font-bold mb-2 text-base">Phone</label>
+    <label class="block font-normal mb-2 text-base">Phone</label>
     <input
       type="text"
       name="phone"
@@ -92,7 +92,7 @@
 
   <!-- Message (Full Width) -->
   <div class="md:col-span-2">
-    <label class="block font-bold mb-2 text-base">Write your message to us</label>
+    <label class="block font-normal mb-2 text-base">Write your message to us</label>
     <textarea
       name="message"
       rows="4"
@@ -129,7 +129,9 @@
   </div>
 </form>
     </div>
+
   </section>
+  
 </template>
 
 
