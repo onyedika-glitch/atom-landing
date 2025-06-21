@@ -6,7 +6,7 @@
   >
 
     <!-- Centered Text Content -->
-    <div class="h-10"></div>
+    <div class="h-20"></div>
     <div class="text-center font-figtree leading-tight tracking-[-0.02em] text-2xl sm:text-4xl md:text-5xl">
       <h2 class="text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-extrabold text-gray-900 mb-4">Who are We?</h2>
       <div class="h-10"></div>
@@ -19,9 +19,9 @@
       </div>
 
     </div>
-    <div class="h-50"></div>
+    <div class="h-20"></div>
     <!-- Rotating Atom Icon -->
-    <div class="absolute bottom-2 right-2 w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 opacity-90">
+    <div class="absolute bottom-2 right-2 w-14 h-14 sm:w-22 sm:h-22 md:w-20 md:h-20 opacity-90">
       <img
           src="@/assets/animated-atom.png"
           alt="AI Icon"

@@ -6,9 +6,22 @@
       <h4 class="text-teal-600 text-lg font-normal mb-2">How We Work</h4>
       <div class="h-5"></div>
       <div class="text-center font-figtree leading-tight tracking-[-0.02em] text-2xl sm:text-4xl md:text-5xl">
-  <h2 class="text-2xl sm:text-4xl md:text-6xl font-normal text-gray-800 leading-tight">
-    Collaboration is at the heart of <br /> everything we do.
-  </h2>
+  <h2
+  style="
+    font-family: 'Figtree', sans-serif;
+    font-weight: 300;
+    font-size: 56px;           
+    line-height: 72px;
+    letter-spacing: -2%;
+    text-align: center;
+    color: #1D2B34;
+    border-radius: 12px;
+    padding: 8px 24px;
+    display: inline-block;
+  "
+>
+  Collaboration is at the heart of <br /> everything we do.
+</h2>
 </div>
         </div>
     <div class="h-10"></div>
@@ -17,7 +30,7 @@
 
       <!-- Left Column: Accordion (no margin or max-w) -->
       <div class="pl-6 pr-4 lg:pl-20 space-y-8">
-        <div class="h-10"></div>
+        <div class="h-30"></div>
         <div v-for="item in items" :key="item.title" class="pb-6 relative border-b">
           <details class="group text-left">
             <!-- Summary Row -->

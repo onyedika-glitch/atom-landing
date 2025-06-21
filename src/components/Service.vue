@@ -91,10 +91,8 @@
                 </p>
               </div>
             </div>
-            <!-- Animated Cube SVG -->
-            <div class="absolute top-6 right-6 z-0 w-36 h-36 opacity-10 group-hover:opacity-100 transition-opacity duration-500">
-              <img src="@/assets/Cube.png" alt="Cube" class="w-full h-full animated-cube" />
-            </div>
+          
+           
           </div>
         </div>
       </div>

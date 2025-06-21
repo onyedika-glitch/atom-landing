@@ -24,19 +24,47 @@
     <!-- Actual Foreground Content -->
     <div class="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-32 max-w-7xl mx-auto">
       <!-- Left Side -->
+       
       <div class="flex flex-col justify-between">
-        <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">
-        <div>
-          <h2 class="text-5xl md:text-6xl font-extrabold text-[#1D1B20] mb-10 text-left">
-            Leave us a message
-          </h2>
-        </div>
-          <div class="h-5"></div>
-        <div>
-          <p class="text-[#00A9B7] text-lg font-semibold text-left">Follow Us</p>
+        
+        <div class=" font-figtree leading-[72px] tracking-[-0.02em] text-[56px] text-left pl-16">
+           <div class="h-20"></div>
+          <div>
+            <h2
+              style="
+                font-family: 'Figtree', sans-serif;
+                font-weight: 300;
+                font-size: 56px;
+                line-height: 72px;
+                letter-spacing: -2%;
+                color: #1D2B34;
+                border-radius: 12px;
+                padding: 8px 34px;
+                display: inline-block;
+              "
+              class="mb-2"
+            >
+              Leave us a message
+            </h2>
+            <p
+              style="
+                font-family: 'Space Grotesk', sans-serif;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 28px;
+                letter-spacing: 0%;
+                color: #1AA9B9;
+                padding: 6px 34px;
+                text-align: left;
+                display: inline-block;
+              "
+              class="mt-5"
+            >
+              Follow Us
+            </p>
+          </div>
         </div>
       </div>
-        </div>
       <!-- Right Side Form -->
      
       <form 

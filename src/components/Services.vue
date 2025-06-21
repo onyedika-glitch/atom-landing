@@ -3,18 +3,48 @@
   <section class="max-w-7xl mx-auto px-4 py-20 text-center">
     <!-- Section Header -->
      <div class="flex flex-col items-center justify-center">
-  <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">
-    <h2 class="text-4xl md:text-5xl font-medium mb-3 text-gray-900">Our Services</h2>
+ 
+    <h2
+  class="mb-3"
+  style="
+    font-family: 'Figtree', sans-serif;
+    font-weight: 300;
+    font-size: 56px;           /* or your display-xl size */
+    line-height: 72px;
+    letter-spacing: -2%;
+    text-align: center;
+    color: #1D2B34;
+    border-radius: 12px;
+    padding: 8px 24px;
+    display: inline-block;
+  "
+>
+  Our Services
+</h2>
+
+
+  
+
+ 
+    <p
+  style="
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 400;
+    font-size: 20px;           /* or your text-xl size */
+    line-height: 28px;         /* or your text-xl line height */
+    letter-spacing: 0.05em;    /* 5% letter spacing */
+    text-align: center;
+    color: #6A767D;
+    margin-bottom: 3rem;
+    max-width: 52rem;
+    margin-left: auto;
+    margin-right: auto;
+  "
+>
+  Discover the range of services we provide to support you.
+</p>
   </div>
 
-  <div class="h-10"></div>
-
-  <div class="text-center font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">
-    <p class="text-gray-500 text-lg mb-12 max-w-2xl mx-auto text-center">
-      Discover the range of services we provide to support you.
-    </p>
-  </div>
-</div>
 
  <div class="h-10"></div>
     <!-- Cards Grid -->
@@ -131,4 +161,4 @@ const services = [
     ],
   },
 ];
-</script> 
+</script>
