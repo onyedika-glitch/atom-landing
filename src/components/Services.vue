@@ -30,9 +30,9 @@
   style="
     font-family: 'SF Pro Display', sans-serif;
     font-weight: 400;
-    font-size: 20px;           /* or your text-xl size */
-    line-height: 28px;         /* or your text-xl line height */
-    letter-spacing: 0.05em;    /* 5% letter spacing */
+    font-size: 20px;          
+    line-height: 28px;         
+    letter-spacing: 0.05em;   
     text-align: center;
     color: #6A767D;
     margin-bottom: 3rem;

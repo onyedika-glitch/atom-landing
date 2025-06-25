@@ -24,16 +24,16 @@
         <div class="h-5"></div>
         <div class="text-left font-figtree leading-[72px] tracking-[-0.02em] text-[56px]">
         <h1
-  class="mb-6 "
+  class="mb-6 text-center md:text-left desktop-padding"
   style="
     font-family: 'Figtree', sans-serif;
     font-weight: 300;
-    font-size: 56px;         /* or your display-xl size */
-    line-height: 72px;
-    letter-spacing: -8%;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    letter-spacing: -2%;
     color: #1D2B34;
     border-radius: 12px;
-    padding: 8px 75px;
+    padding: 8px 16px;
     display: inline-block;
   "
 >
@@ -43,7 +43,7 @@
         </div>
         <div class="h-10"></div>
         <p
-  class="mb-8 max-w-md"
+  class="mb-8 max-w-md desktop-padding text-center md:text-left"
   style="
     font-family: 'SF Pro Display', sans-serif;
     font-weight: 400;
@@ -87,6 +87,7 @@
   </p>
 </div>
             <p
+  class="text-center md:text-left desktop-padding"
   style="
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 500;
@@ -95,7 +96,7 @@
     letter-spacing: 0%;
     color: #717680;
     border-radius: 8px;
-    padding: 4px 140px;
+    padding: 4px 16px;
     display: inline-block;
     margin-top: 8px;
   "
@@ -109,11 +110,13 @@
       <!-- RIGHT FORM CONTAINER -->
      <!-- RIGHT FORM CONTAINER -->
       <!-- RIGHT FORM CONTAINER -->
-<div class="bg-[#f2f2f2] rounded-4xl w-full h-[570px] flex justify-center py-8 px-2 shadow-md">
+<div class="bg-[#f2f2f2] rounded-4xl w-full h-[570px] flex justify-center py-8 px-2 shadow-md md:h-[570px]">
   <form 
    action="https://formsubmit.co/atom.ai.grp@gmail.com"
         method="POST"
-  class="w-full max-w-[489px] h-[450px] space-y-8">
+  class="w-full max-w-xs sm:max-w-md md:max-w-[489px] space-y-8 mx-auto"
+    style="min-height: 450px;"
+  >
           <!-- Hidden settings -->
         <input type="hidden" name="_captcha" value="false" />
         <input type="hidden" name="_template" value="table" />
@@ -133,7 +136,7 @@
         placeholder="Enter your full name"
         class="bg-[ #FFFFFF] w-full "
         style="height:48px; border-radius:12px;background: #FFFFFF;
- padding:12px 24px; font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:500; line-height:24px;"
+ padding:12px 16px; font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:500; line-height:24px;"
       />
     </div>
     <div class="h-5"></div>
@@ -150,7 +153,7 @@
         placeholder="Enter your email address"
         class="bg-[ #FFFFFF] w-full "
         style="height:48px; border-radius:12px;background: #FFFFFF;
- padding:12px 24px; font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:500; line-height:24px;"
+ padding:12px 16px; font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:500; line-height:24px;"
       />
     </div>
      <div class="h-5"></div>
@@ -167,7 +170,7 @@
         placeholder="Enter your message to us"
         class="bg-white w-full resize-none "
         style="height:143px; border-radius:12px;background: #FFFFFF;
- padding:12px 24px; font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:500; line-height:24px;"
+ padding:12px 16px; font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:500; line-height:24px;"
       ></textarea>
     </div>
      <div class="h-5"></div>
@@ -179,8 +182,7 @@
     border-width:2px;
     padding-top:16px;
     padding-bottom:16px;
-    padding-left:22px;
-    padding-right:22px;
+  
     border-radius:16px;
     background:#1AA9B9;
     color:#fff;
@@ -211,5 +213,11 @@ textarea::placeholder {
 }
 label {
   color: #000000;
+}
+@media (min-width: 768px) {
+  .desktop-padding {
+    padding-left: 75px !important;
+    padding-right: 75px !important;
+  }
 }
 </style>

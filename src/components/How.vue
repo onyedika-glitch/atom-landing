@@ -7,18 +7,9 @@
       <div class="h-5"></div>
       <div class="text-center font-figtree leading-tight tracking-[-0.02em] text-2xl sm:text-4xl md:text-5xl">
   <h2
-  style="
-    font-family: 'Figtree', sans-serif;
-    font-weight: 300;
-    font-size: 56px;           
-    line-height: 72px;
-    letter-spacing: -2%;
-    text-align: center;
-    color: #1D2B34;
-    border-radius: 12px;
-    padding: 8px 24px;
-    display: inline-block;
-  "
+  class="font-figtree font-light text-center rounded-[12px] px-3 py-2 mx-auto
+         text-2xl leading-9 sm:text-4xl sm:leading-[48px] md:text-5xl md:leading-[72px] tracking-[-0.02em]"
+  style="color: #1D2B34;"
 >
   Collaboration is at the heart of <br /> everything we do.
 </h2>
